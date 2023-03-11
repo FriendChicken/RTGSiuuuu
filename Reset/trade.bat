@@ -1,5 +1,4 @@
 @echo off
-
 if %1==add (
 	if [%2] == [] (
 		echo [ERROR] Not specifying the name of the trader you want to add
@@ -45,28 +44,8 @@ if %1==change (
 	exit /B
 )
 if %1==run (
-	copy .\Traders\* .\RTG
-	copy .\TradersJSON\* .\RTG
-	cd .\RTG
-	if [%2]==[] (
-		echo [ERROR] Not specifying the name of the traders
-		cd ..
-		exit /B
-	)
-	set _tail=%*
-	call set _tail=%%_tail:*%1=%%
-	set _out=
-	for %%x in (%_tail%) do (
-      	call set "_out=%%_out%% %%~x.py"
-	)
-	copy exchange.json exchange.json.tmp
-	jq-win64 ".Engine.ScoreBoardFile = .Engine.ScoreBoardFile" exchange.json.tmp >exchange.json
-	del exchange.json.tmp
-	CALL ExchangeRenew.bat
-	echo on
-	python rtg.py run %_out%
-	cd ..
-	exit /B
+	goto runline
+	
 )
 if %1==set (
 	if %2==match (
@@ -138,5 +117,37 @@ if %1==reset (
 )
 echo [ERROR] No command called "%1"
 exit /B
+:runline
+	copy .\Traders\* .\RTG
+	copy .\TradersJSON\* .\RTG
+	cd .\RTG
+	if [%2]==[] (
+		echo [ERROR] Not specifying the name of the traders
+		cd ..
+		exit /B
+	)
+	echo %*
+	set "_tail=%*"
+	echo %_tail%
+	call set _tail=%%_tail:*%1=%%
+	echo %_tail%
+	setlocal EnableDelayedExpansion
+	set "_out="
+	echo !_out!
+	for %%x in (%_tail%) do (
+      	call set "_out=%%_out%% %%~x.py"
+	)
+	echo !_out!
+	copy exchange.json exchange.json.tmp
+	jq-win64 ".Engine.ScoreBoardFile = .Engine.ScoreBoardFile" exchange.json.tmp >exchange.json
+	del exchange.json.tmp
+	CALL ExchangeRenew.bat
+	echo on
+	python rtg.py run %_out%
+	@echo off
+	cd..
+	exit /B
+	
+
 
 
