@@ -1,0 +1,63 @@
+{
+  "Engine": {
+    "MarketDataFile": "data/market_data2.csv",
+    "MarketEventInterval": 0.05,
+    "MarketOpenDelay": 5.0,
+    "MatchEventsFile": "Matches/Match1/match_events.csv",
+    "ScoreBoardFile": "Matches/Match1/score_board.csv",
+    "Speed": 1.0,
+    "TickInterval": 0.25
+  },
+  "Execution": {
+    "Host": "127.0.0.1",
+    "Port": 12345
+  },
+  "Fees": {
+    "Maker": -0.0001,
+    "Taker": 0.0002
+  },
+  "Hud": {
+    "Host": "127.0.0.1",
+    "Port": 12347
+  },
+  "Information": {
+    "Type": "mmap",
+    "Name": "info.dat"
+  },
+  "Instrument": {
+    "EtfClamp": 0.002,
+    "TickSize": 1.00
+  },
+  "Limits": {
+    "ActiveOrderCountLimit": 10,
+    "ActiveVolumeLimit": 200,
+    "MessageFrequencyInterval": 1.0,
+    "MessageFrequencyLimit": 50,
+    "PositionLimit": 100
+  },
+  "Traders": {
+    "TraderOne": "secret",
+    "TraderTwo": "secret",
+    "auto": "secret",
+    "WLowBuy": "secret",
+    "Maker": "secret",
+    "FastWLB": "secret",
+    "WLiq": "secret",
+    "FastM": "secret",
+    "FastM2": "secret",
+    "FastM3": "secret",
+    "FastM4": "secret",
+    "FastM5": "secret",
+    "FastM6": "secret",
+    "FastM7": "secret",
+    "GreedySpread": "secret",
+    "LowBuy": "secret",
+    "WLowBuy2": "secret",
+    "FastM2Liq": "secret",
+    "YABO": "secret",
+    "allin33": "secret",
+    "allin50": "secret",
+    "allin50_2": "secret",
+    "ZeroStrategy": "secret"
+  }
+}
