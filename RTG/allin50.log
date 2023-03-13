@@ -549,3 +549,1037 @@ ConnectionResetError: [WinError 10054] An existing connection was forcibly close
 2023-03-11 03:33:45,429 [INFO   ] [TRADER] received order status for order 135 with fill volume 16 remaining 34 and fees -242
 2023-03-11 03:33:45,433 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 30
 2023-03-11 03:33:45,433 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 44
+2023-03-12 15:47:32,606 [INFO   ] [APP] allin50 started with arguments={rtg.py, run, allin50.py, allin50change.py, WLiq.py, WLowBuy.py, WLowBuy2.py}
+2023-03-12 15:47:32,606 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"Type":"mmap","Name":"info.dat"},"TeamName":"allin50","Secret":"secret"}
+2023-03-12 15:47:32,606 [INFO   ] [CONNECTION] fd=192 connection established: peer=127.0.0.1:12345
+2023-03-12 15:47:37,715 [INFO   ] [TRADER] received order status for order 1 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:37,715 [INFO   ] [TRADER] received order status for order 2 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:37,951 [INFO   ] [TRADER] OrderFill START!!!!! Position:0
+2023-03-12 15:47:37,951 [INFO   ] [TRADER] id 3 , BID FUTURE
+2023-03-12 15:47:37,951 [INFO   ] [TRADER] Now Position:-50
+2023-03-12 15:47:37,951 [INFO   ] [TRADER] received order status for order 2 with fill volume 50 remaining 0 and fees -742
+2023-03-12 15:47:37,952 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 2
+2023-03-12 15:47:37,984 [INFO   ] [TRADER] received order status for order 1 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:37,984 [INFO   ] [TRADER] received order status for order 4 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:37,985 [INFO   ] [TRADER] received order status for order 5 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:38,135 [INFO   ] [TRADER] OrderFill START!!!!! Position:-50
+2023-03-12 15:47:38,135 [INFO   ] [TRADER] id 6 , ASK FUTURE
+2023-03-12 15:47:38,135 [INFO   ] [TRADER] Now Position:-44
+2023-03-12 15:47:38,136 [INFO   ] [TRADER] received order status for order 4 with fill volume 6 remaining 44 and fees -89
+2023-03-12 15:47:38,136 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 3
+2023-03-12 15:47:38,223 [INFO   ] [TRADER] received order status for order 4 with fill volume 6 remaining 0 and fees -89
+2023-03-12 15:47:38,223 [INFO   ] [TRADER] received order status for order 5 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:38,223 [INFO   ] [TRADER] received order status for order 7 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:38,223 [INFO   ] [TRADER] received order status for order 8 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:38,323 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 2
+2023-03-12 15:47:38,522 [INFO   ] [TRADER] received order status for order 7 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:38,523 [INFO   ] [TRADER] received order status for order 8 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:38,523 [INFO   ] [TRADER] received order status for order 9 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:38,523 [INFO   ] [TRADER] received order status for order 10 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:38,575 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 4
+2023-03-12 15:47:38,624 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 3
+2023-03-12 15:47:38,732 [INFO   ] [TRADER] OrderFill START!!!!! Position:-44
+2023-03-12 15:47:38,732 [INFO   ] [TRADER] id 13 , BID FUTURE
+2023-03-12 15:47:38,732 [INFO   ] [TRADER] Now Position:-94
+2023-03-12 15:47:38,732 [INFO   ] [TRADER] received order status for order 10 with fill volume 50 remaining 0 and fees -743
+2023-03-12 15:47:38,732 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 5
+2023-03-12 15:47:38,732 [INFO   ] [TRADER] received order status for order 9 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:38,732 [INFO   ] [TRADER] received order status for order 11 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:38,732 [INFO   ] [TRADER] received order status for order 12 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:38,770 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 4
+2023-03-12 15:47:38,956 [INFO   ] [TRADER] received order status for order 11 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:38,956 [INFO   ] [TRADER] received order status for order 12 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:38,956 [INFO   ] [TRADER] received order status for order 14 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:38,956 [INFO   ] [TRADER] received order status for order 15 with fill volume 0 remaining 6 and fees 0
+2023-03-12 15:47:39,210 [INFO   ] [TRADER] received order status for order 14 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:39,210 [INFO   ] [TRADER] received order status for order 15 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:39,210 [INFO   ] [TRADER] received order status for order 16 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:39,210 [INFO   ] [TRADER] received order status for order 17 with fill volume 0 remaining 6 and fees 0
+2023-03-12 15:47:39,430 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 6
+2023-03-12 15:47:39,461 [INFO   ] [TRADER] received order status for order 16 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:39,461 [INFO   ] [TRADER] received order status for order 17 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:39,461 [INFO   ] [TRADER] received order status for order 18 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:39,461 [INFO   ] [TRADER] received order status for order 19 with fill volume 0 remaining 6 and fees 0
+2023-03-12 15:47:39,524 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 7
+2023-03-12 15:47:39,760 [INFO   ] [TRADER] received order status for order 18 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:39,760 [INFO   ] [TRADER] received order status for order 19 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:39,760 [INFO   ] [TRADER] received order status for order 20 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:39,760 [INFO   ] [TRADER] received order status for order 21 with fill volume 0 remaining 6 and fees 0
+2023-03-12 15:47:40,011 [INFO   ] [TRADER] received order status for order 20 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:40,011 [INFO   ] [TRADER] received order status for order 21 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:40,012 [INFO   ] [TRADER] received order status for order 22 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:40,012 [INFO   ] [TRADER] received order status for order 23 with fill volume 0 remaining 6 and fees 0
+2023-03-12 15:47:40,218 [INFO   ] [TRADER] received order status for order 22 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:40,219 [INFO   ] [TRADER] received order status for order 23 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:40,219 [INFO   ] [TRADER] received order status for order 24 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:40,219 [INFO   ] [TRADER] received order status for order 25 with fill volume 0 remaining 6 and fees 0
+2023-03-12 15:47:40,469 [INFO   ] [TRADER] received order status for order 24 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:40,469 [INFO   ] [TRADER] received order status for order 25 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:40,469 [INFO   ] [TRADER] received order status for order 26 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:40,469 [INFO   ] [TRADER] received order status for order 27 with fill volume 0 remaining 6 and fees 0
+2023-03-12 15:47:40,725 [INFO   ] [TRADER] received order status for order 26 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:40,725 [INFO   ] [TRADER] received order status for order 27 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:40,725 [INFO   ] [TRADER] received order status for order 28 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:40,725 [INFO   ] [TRADER] received order status for order 29 with fill volume 0 remaining 6 and fees 0
+2023-03-12 15:47:40,980 [INFO   ] [TRADER] received order status for order 28 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:40,980 [INFO   ] [TRADER] received order status for order 29 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:40,980 [INFO   ] [TRADER] received order status for order 30 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:40,980 [INFO   ] [TRADER] received order status for order 31 with fill volume 0 remaining 6 and fees 0
+2023-03-12 15:47:41,075 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 8
+2023-03-12 15:47:41,185 [INFO   ] [TRADER] received order status for order 30 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:41,185 [INFO   ] [TRADER] received order status for order 31 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:41,185 [INFO   ] [TRADER] received order status for order 32 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:41,185 [INFO   ] [TRADER] received order status for order 33 with fill volume 0 remaining 6 and fees 0
+2023-03-12 15:47:41,378 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 5
+2023-03-12 15:47:41,440 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 6
+2023-03-12 15:47:41,441 [INFO   ] [TRADER] OrderFill START!!!!! Position:-94
+2023-03-12 15:47:41,441 [INFO   ] [TRADER] id 36 , BID FUTURE
+2023-03-12 15:47:41,441 [INFO   ] [TRADER] Now Position:-100
+2023-03-12 15:47:41,441 [INFO   ] [TRADER] received order status for order 33 with fill volume 6 remaining 0 and fees -89
+2023-03-12 15:47:41,441 [INFO   ] [TRADER] received order status for order 32 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:41,441 [INFO   ] [TRADER] received order status for order 34 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:41,441 [INFO   ] [TRADER] received order status for order 35 with fill volume 0 remaining 6 and fees 0
+2023-03-12 15:47:41,442 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 9
+2023-03-12 15:47:41,524 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 7
+2023-03-12 15:47:41,570 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 8
+2023-03-12 15:47:41,680 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 10
+2023-03-12 15:47:41,680 [INFO   ] [TRADER] received order status for order 34 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:41,680 [INFO   ] [TRADER] received order status for order 35 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:41,680 [INFO   ] [TRADER] received order status for order 37 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:41,680 [WARNING] [TRADER] error with order 38: %d is not a valid volume
+2023-03-12 15:47:41,680 [INFO   ] [TRADER] received order status for order 38 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:42,010 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 11
+2023-03-12 15:47:42,011 [INFO   ] [TRADER] received order status for order 37 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:42,011 [INFO   ] [TRADER] received order status for order 39 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:42,011 [WARNING] [TRADER] error with order 40: %d is not a valid volume
+2023-03-12 15:47:42,011 [INFO   ] [TRADER] received order status for order 40 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:42,201 [INFO   ] [TRADER] received order status for order 39 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:42,201 [INFO   ] [TRADER] received order status for order 41 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:42,201 [WARNING] [TRADER] error with order 42: %d is not a valid volume
+2023-03-12 15:47:42,202 [INFO   ] [TRADER] received order status for order 42 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:42,378 [INFO   ] [TRADER] OrderFill START!!!!! Position:-100
+2023-03-12 15:47:42,378 [INFO   ] [TRADER] id 43 , ASK FUTURE
+2023-03-12 15:47:42,378 [INFO   ] [TRADER] Now Position:-95
+2023-03-12 15:47:42,378 [INFO   ] [TRADER] received order status for order 41 with fill volume 5 remaining 45 and fees -74
+2023-03-12 15:47:42,379 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 12
+2023-03-12 15:47:42,424 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 9
+2023-03-12 15:47:42,483 [INFO   ] [TRADER] received order status for order 41 with fill volume 5 remaining 0 and fees -74
+2023-03-12 15:47:42,483 [INFO   ] [TRADER] received order status for order 44 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:42,483 [INFO   ] [TRADER] received order status for order 45 with fill volume 0 remaining 5 and fees 0
+2023-03-12 15:47:42,681 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 10
+2023-03-12 15:47:42,682 [INFO   ] [TRADER] received order status for order 44 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:42,682 [INFO   ] [TRADER] received order status for order 45 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:42,682 [INFO   ] [TRADER] received order status for order 46 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:42,682 [INFO   ] [TRADER] received order status for order 47 with fill volume 0 remaining 5 and fees 0
+2023-03-12 15:47:42,720 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 13
+2023-03-12 15:47:42,958 [INFO   ] [TRADER] received order status for order 46 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:42,958 [INFO   ] [TRADER] received order status for order 47 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:42,958 [INFO   ] [TRADER] received order status for order 48 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:42,958 [INFO   ] [TRADER] received order status for order 49 with fill volume 0 remaining 5 and fees 0
+2023-03-12 15:47:43,213 [INFO   ] [TRADER] received order status for order 48 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:43,213 [INFO   ] [TRADER] received order status for order 49 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:43,213 [INFO   ] [TRADER] received order status for order 50 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:43,213 [INFO   ] [TRADER] received order status for order 51 with fill volume 0 remaining 5 and fees 0
+2023-03-12 15:47:43,431 [INFO   ] [TRADER] received order status for order 50 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:43,431 [INFO   ] [TRADER] received order status for order 51 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:43,431 [INFO   ] [TRADER] received order status for order 52 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:43,431 [INFO   ] [TRADER] received order status for order 53 with fill volume 0 remaining 5 and fees 0
+2023-03-12 15:47:43,685 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 11
+2023-03-12 15:47:43,685 [INFO   ] [TRADER] received order status for order 52 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:43,685 [INFO   ] [TRADER] received order status for order 53 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:43,685 [INFO   ] [TRADER] received order status for order 54 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:43,685 [INFO   ] [TRADER] received order status for order 55 with fill volume 0 remaining 5 and fees 0
+2023-03-12 15:47:43,918 [INFO   ] [TRADER] received order status for order 54 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:43,918 [INFO   ] [TRADER] received order status for order 55 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:43,918 [INFO   ] [TRADER] received order status for order 56 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:43,918 [INFO   ] [TRADER] received order status for order 57 with fill volume 0 remaining 5 and fees 0
+2023-03-12 15:47:44,074 [INFO   ] [TRADER] OrderFill START!!!!! Position:-95
+2023-03-12 15:47:44,074 [INFO   ] [TRADER] id 58 , ASK FUTURE
+2023-03-12 15:47:44,074 [INFO   ] [TRADER] Now Position:-45
+2023-03-12 15:47:44,074 [INFO   ] [TRADER] received order status for order 56 with fill volume 50 remaining 0 and fees -743
+2023-03-12 15:47:44,075 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 14
+2023-03-12 15:47:44,248 [INFO   ] [TRADER] received order status for order 57 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:44,249 [INFO   ] [TRADER] received order status for order 59 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:44,249 [INFO   ] [TRADER] received order status for order 60 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:44,249 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 15
+2023-03-12 15:47:44,472 [INFO   ] [TRADER] received order status for order 59 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:44,472 [INFO   ] [TRADER] received order status for order 60 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:44,472 [INFO   ] [TRADER] received order status for order 61 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:44,472 [INFO   ] [TRADER] received order status for order 62 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:44,740 [INFO   ] [TRADER] received order status for order 61 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:44,741 [INFO   ] [TRADER] received order status for order 62 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:44,741 [INFO   ] [TRADER] received order status for order 63 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:44,741 [INFO   ] [TRADER] received order status for order 64 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:44,916 [INFO   ] [TRADER] received order status for order 63 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:44,916 [INFO   ] [TRADER] received order status for order 64 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:44,916 [INFO   ] [TRADER] received order status for order 65 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:44,916 [INFO   ] [TRADER] received order status for order 66 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:45,223 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 12
+2023-03-12 15:47:45,224 [INFO   ] [TRADER] received order status for order 65 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:45,224 [INFO   ] [TRADER] received order status for order 66 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:45,224 [INFO   ] [TRADER] OrderFill START!!!!! Position:-45
+2023-03-12 15:47:45,224 [INFO   ] [TRADER] id 69 , ASK FUTURE
+2023-03-12 15:47:45,224 [INFO   ] [TRADER] Now Position:5
+2023-03-12 15:47:45,224 [INFO   ] [TRADER] received order status for order 67 with fill volume 50 remaining 0 and fees 1491
+2023-03-12 15:47:45,224 [INFO   ] [TRADER] received order status for order 68 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:45,225 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 16
+2023-03-12 15:47:45,454 [INFO   ] [TRADER] received order status for order 68 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:45,454 [INFO   ] [TRADER] received order status for order 70 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:45,455 [INFO   ] [TRADER] received order status for order 71 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:45,740 [INFO   ] [TRADER] received order status for order 70 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:45,741 [INFO   ] [TRADER] received order status for order 71 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:45,741 [INFO   ] [TRADER] received order status for order 72 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:45,741 [INFO   ] [TRADER] received order status for order 73 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:45,991 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 17
+2023-03-12 15:47:45,991 [INFO   ] [TRADER] received order status for order 72 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:45,991 [INFO   ] [TRADER] received order status for order 73 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:45,991 [INFO   ] [TRADER] received order status for order 74 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:45,991 [INFO   ] [TRADER] received order status for order 75 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:46,119 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 18
+2023-03-12 15:47:46,216 [INFO   ] [TRADER] received order status for order 74 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:46,216 [INFO   ] [TRADER] received order status for order 75 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:46,216 [INFO   ] [TRADER] received order status for order 76 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:46,216 [INFO   ] [TRADER] received order status for order 77 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:46,470 [INFO   ] [TRADER] received order status for order 76 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:46,470 [INFO   ] [TRADER] received order status for order 77 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:46,470 [INFO   ] [TRADER] received order status for order 78 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:46,470 [INFO   ] [TRADER] received order status for order 79 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:46,576 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 13
+2023-03-12 15:47:46,628 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 14
+2023-03-12 15:47:46,784 [INFO   ] [TRADER] OrderFill START!!!!! Position:5
+2023-03-12 15:47:46,784 [INFO   ] [TRADER] id 82 , BID FUTURE
+2023-03-12 15:47:46,784 [INFO   ] [TRADER] Now Position:-15
+2023-03-12 15:47:46,784 [INFO   ] [TRADER] received order status for order 79 with fill volume 20 remaining 30 and fees -299
+2023-03-12 15:47:46,784 [INFO   ] [TRADER] received order status for order 78 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:46,784 [INFO   ] [TRADER] received order status for order 79 with fill volume 20 remaining 0 and fees -299
+2023-03-12 15:47:46,784 [INFO   ] [TRADER] OrderFill START!!!!! Position:-15
+2023-03-12 15:47:46,785 [INFO   ] [TRADER] id 83 , ASK FUTURE
+2023-03-12 15:47:46,785 [INFO   ] [TRADER] Now Position:35
+2023-03-12 15:47:46,785 [INFO   ] [TRADER] received order status for order 80 with fill volume 50 remaining 0 and fees 1495
+2023-03-12 15:47:46,785 [INFO   ] [TRADER] received order status for order 81 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:46,785 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 19
+2023-03-12 15:47:46,855 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 15
+2023-03-12 15:47:46,961 [INFO   ] [TRADER] received order status for order 81 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:46,961 [INFO   ] [TRADER] received order status for order 84 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:46,961 [INFO   ] [TRADER] received order status for order 85 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:47,212 [INFO   ] [TRADER] received order status for order 84 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:47,212 [INFO   ] [TRADER] received order status for order 85 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:47,212 [INFO   ] [TRADER] received order status for order 86 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:47,212 [INFO   ] [TRADER] received order status for order 87 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:47,479 [INFO   ] [TRADER] received order status for order 86 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:47,480 [INFO   ] [TRADER] received order status for order 87 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:47,480 [INFO   ] [TRADER] received order status for order 88 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:47,480 [INFO   ] [TRADER] received order status for order 89 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:47,531 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 16
+2023-03-12 15:47:47,747 [INFO   ] [TRADER] OrderFill START!!!!! Position:35
+2023-03-12 15:47:47,748 [INFO   ] [TRADER] id 92 , ASK FUTURE
+2023-03-12 15:47:47,748 [INFO   ] [TRADER] Now Position:85
+2023-03-12 15:47:47,748 [INFO   ] [TRADER] received order status for order 88 with fill volume 50 remaining 0 and fees -748
+2023-03-12 15:47:47,750 [INFO   ] [TRADER] received order status for order 89 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:47,750 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 20
+2023-03-12 15:47:47,751 [INFO   ] [TRADER] received order status for order 90 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:47,753 [INFO   ] [TRADER] received order status for order 91 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:47,754 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 17
+2023-03-12 15:47:47,955 [INFO   ] [TRADER] received order status for order 90 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:47,956 [INFO   ] [TRADER] received order status for order 91 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:47,956 [INFO   ] [TRADER] received order status for order 93 with fill volume 0 remaining 15 and fees 0
+2023-03-12 15:47:47,956 [INFO   ] [TRADER] received order status for order 94 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:48,113 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 18
+2023-03-12 15:47:48,229 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 19
+2023-03-12 15:47:48,229 [INFO   ] [TRADER] received order status for order 93 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:48,229 [INFO   ] [TRADER] received order status for order 94 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:48,229 [INFO   ] [TRADER] received order status for order 95 with fill volume 0 remaining 15 and fees 0
+2023-03-12 15:47:48,229 [INFO   ] [TRADER] received order status for order 96 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:48,465 [INFO   ] [TRADER] received order status for order 95 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:48,465 [INFO   ] [TRADER] received order status for order 96 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:48,465 [INFO   ] [TRADER] received order status for order 97 with fill volume 0 remaining 15 and fees 0
+2023-03-12 15:47:48,465 [INFO   ] [TRADER] received order status for order 98 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:48,528 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 20
+2023-03-12 15:47:48,701 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 21
+2023-03-12 15:47:48,701 [INFO   ] [TRADER] received order status for order 97 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:48,701 [INFO   ] [TRADER] received order status for order 98 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:48,701 [INFO   ] [TRADER] received order status for order 99 with fill volume 0 remaining 15 and fees 0
+2023-03-12 15:47:48,701 [INFO   ] [TRADER] received order status for order 100 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:48,763 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 22
+2023-03-12 15:47:48,811 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 23
+2023-03-12 15:47:48,811 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 21
+2023-03-12 15:47:48,873 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 24
+2023-03-12 15:47:48,921 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 25
+2023-03-12 15:47:48,921 [INFO   ] [TRADER] received order status for order 99 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:48,921 [INFO   ] [TRADER] received order status for order 100 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:48,921 [INFO   ] [TRADER] received order status for order 101 with fill volume 0 remaining 15 and fees 0
+2023-03-12 15:47:48,921 [INFO   ] [TRADER] received order status for order 102 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:49,069 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 26
+2023-03-12 15:47:49,133 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 27
+2023-03-12 15:47:49,228 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 28
+2023-03-12 15:47:49,228 [INFO   ] [TRADER] received order status for order 101 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:49,228 [INFO   ] [TRADER] received order status for order 102 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:49,228 [INFO   ] [TRADER] received order status for order 103 with fill volume 0 remaining 15 and fees 0
+2023-03-12 15:47:49,228 [INFO   ] [TRADER] received order status for order 104 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:49,428 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 29
+2023-03-12 15:47:49,493 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 30
+2023-03-12 15:47:49,495 [INFO   ] [TRADER] received order status for order 103 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:49,495 [INFO   ] [TRADER] received order status for order 104 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:49,495 [INFO   ] [TRADER] OrderFill START!!!!! Position:85
+2023-03-12 15:47:49,495 [INFO   ] [TRADER] id 107 , ASK FUTURE
+2023-03-12 15:47:49,495 [INFO   ] [TRADER] Now Position:100
+2023-03-12 15:47:49,495 [INFO   ] [TRADER] received order status for order 105 with fill volume 15 remaining 0 and fees 452
+2023-03-12 15:47:49,495 [INFO   ] [TRADER] received order status for order 106 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:49,495 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 22
+2023-03-12 15:47:49,669 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 31
+2023-03-12 15:47:49,708 [INFO   ] [TRADER] received order status for order 106 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:49,708 [WARNING] [TRADER] error with order 108: %d is not a valid volume
+2023-03-12 15:47:49,708 [INFO   ] [TRADER] received order status for order 108 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:49,708 [INFO   ] [TRADER] received order status for order 109 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:49,887 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 32
+2023-03-12 15:47:49,960 [INFO   ] [TRADER] received order status for order 109 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:49,961 [WARNING] [TRADER] error with order 110: %d is not a valid volume
+2023-03-12 15:47:49,961 [INFO   ] [TRADER] received order status for order 110 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:49,961 [INFO   ] [TRADER] received order status for order 111 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:49,961 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 23
+2023-03-12 15:47:50,036 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 33
+2023-03-12 15:47:50,264 [INFO   ] [TRADER] received order status for order 111 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:50,264 [WARNING] [TRADER] error with order 112: %d is not a valid volume
+2023-03-12 15:47:50,264 [INFO   ] [TRADER] received order status for order 112 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:50,264 [INFO   ] [TRADER] received order status for order 113 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:50,342 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 34
+2023-03-12 15:47:50,428 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 24
+2023-03-12 15:47:50,504 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 35
+2023-03-12 15:47:50,506 [INFO   ] [TRADER] received order status for order 113 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:50,506 [WARNING] [TRADER] error with order 114: %d is not a valid volume
+2023-03-12 15:47:50,506 [INFO   ] [TRADER] received order status for order 114 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:50,507 [INFO   ] [TRADER] received order status for order 115 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:50,690 [INFO   ] [TRADER] received order status for order 115 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:50,690 [WARNING] [TRADER] error with order 116: %d is not a valid volume
+2023-03-12 15:47:50,690 [INFO   ] [TRADER] received order status for order 116 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:50,690 [INFO   ] [TRADER] received order status for order 117 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:50,771 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 25
+2023-03-12 15:47:50,927 [INFO   ] [TRADER] received order status for order 117 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:50,928 [WARNING] [TRADER] error with order 118: %d is not a valid volume
+2023-03-12 15:47:50,928 [INFO   ] [TRADER] received order status for order 118 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:50,928 [INFO   ] [TRADER] received order status for order 119 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:51,163 [INFO   ] [TRADER] received order status for order 119 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:51,163 [WARNING] [TRADER] error with order 120: %d is not a valid volume
+2023-03-12 15:47:51,163 [INFO   ] [TRADER] received order status for order 120 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:51,163 [INFO   ] [TRADER] received order status for order 121 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:51,372 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 36
+2023-03-12 15:47:51,443 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 26
+2023-03-12 15:47:51,443 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 37
+2023-03-12 15:47:51,444 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 27
+2023-03-12 15:47:51,444 [INFO   ] [TRADER] received order status for order 121 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:51,445 [WARNING] [TRADER] error with order 122: %d is not a valid volume
+2023-03-12 15:47:51,445 [INFO   ] [TRADER] received order status for order 122 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:51,445 [INFO   ] [TRADER] received order status for order 123 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:51,445 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 28
+2023-03-12 15:47:51,606 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 29
+2023-03-12 15:47:51,718 [INFO   ] [TRADER] received order status for order 123 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:51,719 [WARNING] [TRADER] error with order 124: %d is not a valid volume
+2023-03-12 15:47:51,719 [INFO   ] [TRADER] received order status for order 124 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:51,719 [INFO   ] [TRADER] received order status for order 125 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:51,783 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 38
+2023-03-12 15:47:51,955 [INFO   ] [TRADER] received order status for order 125 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:51,955 [WARNING] [TRADER] error with order 126: %d is not a valid volume
+2023-03-12 15:47:51,955 [INFO   ] [TRADER] received order status for order 126 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:51,955 [INFO   ] [TRADER] received order status for order 127 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:52,064 [INFO   ] [TRADER] OrderFill START!!!!! Position:100
+2023-03-12 15:47:52,064 [INFO   ] [TRADER] id 128 , BID FUTURE
+2023-03-12 15:47:52,064 [INFO   ] [TRADER] Now Position:63
+2023-03-12 15:47:52,064 [INFO   ] [TRADER] received order status for order 127 with fill volume 37 remaining 13 and fees -559
+2023-03-12 15:47:52,065 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 30
+2023-03-12 15:47:52,127 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 39
+2023-03-12 15:47:52,158 [INFO   ] [TRADER] received order status for order 127 with fill volume 37 remaining 0 and fees -559
+2023-03-12 15:47:52,159 [INFO   ] [TRADER] received order status for order 129 with fill volume 0 remaining 37 and fees 0
+2023-03-12 15:47:52,159 [INFO   ] [TRADER] received order status for order 130 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:52,323 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 40
+2023-03-12 15:47:52,476 [INFO   ] [TRADER] received order status for order 129 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:52,476 [INFO   ] [TRADER] received order status for order 130 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:52,476 [INFO   ] [TRADER] received order status for order 131 with fill volume 0 remaining 37 and fees 0
+2023-03-12 15:47:52,476 [INFO   ] [TRADER] received order status for order 132 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:52,670 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 41
+2023-03-12 15:47:52,703 [INFO   ] [TRADER] OrderFill START!!!!! Position:63
+2023-03-12 15:47:52,703 [INFO   ] [TRADER] id 135 , BID FUTURE
+2023-03-12 15:47:52,703 [INFO   ] [TRADER] Now Position:23
+2023-03-12 15:47:52,703 [INFO   ] [TRADER] received order status for order 132 with fill volume 40 remaining 10 and fees -604
+2023-03-12 15:47:52,703 [INFO   ] [TRADER] received order status for order 131 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:52,703 [INFO   ] [TRADER] received order status for order 132 with fill volume 40 remaining 0 and fees -604
+2023-03-12 15:47:52,703 [INFO   ] [TRADER] received order status for order 133 with fill volume 0 remaining 37 and fees 0
+2023-03-12 15:47:52,703 [INFO   ] [TRADER] received order status for order 134 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:52,703 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 31
+2023-03-12 15:47:52,714 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 42
+2023-03-12 15:47:52,774 [INFO   ] [TRADER] OrderFill START!!!!! Position:23
+2023-03-12 15:47:52,774 [INFO   ] [TRADER] id 136 , BID FUTURE
+2023-03-12 15:47:52,774 [INFO   ] [TRADER] Now Position:17
+2023-03-12 15:47:52,774 [INFO   ] [TRADER] received order status for order 134 with fill volume 6 remaining 44 and fees -91
+2023-03-12 15:47:52,778 [INFO   ] [TRADER] OrderFill START!!!!! Position:17
+2023-03-12 15:47:52,778 [INFO   ] [TRADER] id 137 , ASK FUTURE
+2023-03-12 15:47:52,778 [INFO   ] [TRADER] Now Position:33
+2023-03-12 15:47:52,778 [INFO   ] [TRADER] received order status for order 133 with fill volume 16 remaining 21 and fees -242
+2023-03-12 15:47:52,781 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 32
+2023-03-12 15:47:52,781 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 43
+2023-03-12 15:47:52,965 [INFO   ] [TRADER] received order status for order 133 with fill volume 16 remaining 0 and fees -242
+2023-03-12 15:47:52,965 [INFO   ] [TRADER] received order status for order 134 with fill volume 6 remaining 0 and fees -91
+2023-03-12 15:47:52,965 [INFO   ] [TRADER] received order status for order 138 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:52,965 [INFO   ] [TRADER] received order status for order 139 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:53,094 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 33
+2023-03-12 15:47:53,220 [INFO   ] [TRADER] received order status for order 138 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:53,220 [INFO   ] [TRADER] received order status for order 139 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:53,220 [INFO   ] [TRADER] received order status for order 140 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:53,220 [INFO   ] [TRADER] received order status for order 141 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:53,269 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 44
+2023-03-12 15:47:53,427 [INFO   ] [TRADER] received order status for order 140 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:53,427 [INFO   ] [TRADER] received order status for order 141 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:53,427 [INFO   ] [TRADER] received order status for order 142 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:53,427 [INFO   ] [TRADER] received order status for order 143 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:53,539 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 45
+2023-03-12 15:47:53,646 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 46
+2023-03-12 15:47:53,694 [INFO   ] [TRADER] received order status for order 142 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:53,694 [INFO   ] [TRADER] received order status for order 143 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:53,694 [INFO   ] [TRADER] received order status for order 144 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:53,694 [INFO   ] [TRADER] received order status for order 145 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:53,974 [INFO   ] [TRADER] received order status for order 144 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:53,974 [INFO   ] [TRADER] received order status for order 145 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:53,974 [INFO   ] [TRADER] received order status for order 146 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:53,974 [INFO   ] [TRADER] received order status for order 147 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:54,169 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 47
+2023-03-12 15:47:54,230 [INFO   ] [TRADER] received order status for order 146 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:54,230 [INFO   ] [TRADER] received order status for order 147 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:54,230 [INFO   ] [TRADER] received order status for order 148 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:54,230 [INFO   ] [TRADER] received order status for order 149 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:54,279 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 48
+2023-03-12 15:47:54,475 [INFO   ] [TRADER] received order status for order 148 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:54,475 [INFO   ] [TRADER] received order status for order 149 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:54,475 [INFO   ] [TRADER] received order status for order 150 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:54,475 [INFO   ] [TRADER] received order status for order 151 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:54,714 [INFO   ] [TRADER] OrderFill START!!!!! Position:33
+2023-03-12 15:47:54,714 [INFO   ] [TRADER] id 154 , BID FUTURE
+2023-03-12 15:47:54,714 [INFO   ] [TRADER] Now Position:-17
+2023-03-12 15:47:54,714 [INFO   ] [TRADER] received order status for order 151 with fill volume 50 remaining 0 and fees -760
+2023-03-12 15:47:54,715 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 34
+2023-03-12 15:47:54,715 [INFO   ] [TRADER] received order status for order 150 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:54,715 [INFO   ] [TRADER] received order status for order 152 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:54,715 [INFO   ] [TRADER] received order status for order 153 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:54,836 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 49
+2023-03-12 15:47:54,926 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 50
+2023-03-12 15:47:54,966 [INFO   ] [TRADER] received order status for order 152 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:54,966 [INFO   ] [TRADER] received order status for order 153 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:54,966 [INFO   ] [TRADER] received order status for order 155 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:54,966 [INFO   ] [TRADER] received order status for order 156 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:55,143 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 51
+2023-03-12 15:47:55,202 [INFO   ] [TRADER] received order status for order 155 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:55,202 [INFO   ] [TRADER] received order status for order 156 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:55,202 [INFO   ] [TRADER] received order status for order 157 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:55,202 [INFO   ] [TRADER] received order status for order 158 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:55,334 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 52
+2023-03-12 15:47:55,453 [INFO   ] [TRADER] received order status for order 157 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:55,453 [INFO   ] [TRADER] received order status for order 158 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:55,453 [INFO   ] [TRADER] received order status for order 159 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:55,454 [INFO   ] [TRADER] received order status for order 160 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:55,733 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 53
+2023-03-12 15:47:55,734 [INFO   ] [TRADER] received order status for order 159 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:55,734 [INFO   ] [TRADER] received order status for order 160 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:55,734 [INFO   ] [TRADER] received order status for order 161 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:55,735 [INFO   ] [TRADER] OrderFill START!!!!! Position:-17
+2023-03-12 15:47:55,735 [INFO   ] [TRADER] id 163 , BID FUTURE
+2023-03-12 15:47:55,735 [INFO   ] [TRADER] Now Position:-27
+2023-03-12 15:47:55,735 [INFO   ] [TRADER] received order status for order 162 with fill volume 10 remaining 40 and fees 304
+2023-03-12 15:47:55,735 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 35
+2023-03-12 15:47:55,962 [INFO   ] [TRADER] received order status for order 161 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:55,962 [INFO   ] [TRADER] received order status for order 162 with fill volume 10 remaining 0 and fees 304
+2023-03-12 15:47:55,962 [INFO   ] [TRADER] received order status for order 164 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:55,962 [INFO   ] [TRADER] received order status for order 165 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:56,202 [INFO   ] [TRADER] received order status for order 164 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:56,202 [INFO   ] [TRADER] received order status for order 165 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:56,202 [INFO   ] [TRADER] received order status for order 166 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:56,202 [INFO   ] [TRADER] received order status for order 167 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:56,327 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 54
+2023-03-12 15:47:56,468 [INFO   ] [TRADER] received order status for order 166 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:56,468 [INFO   ] [TRADER] received order status for order 167 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:56,468 [INFO   ] [TRADER] received order status for order 168 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:56,468 [INFO   ] [TRADER] received order status for order 169 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:56,777 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 55
+2023-03-12 15:47:56,779 [INFO   ] [TRADER] received order status for order 168 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:56,779 [INFO   ] [TRADER] received order status for order 169 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:56,779 [INFO   ] [TRADER] received order status for order 170 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:56,779 [INFO   ] [TRADER] received order status for order 171 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:56,972 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 36
+2023-03-12 15:47:57,008 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 56
+2023-03-12 15:47:57,008 [INFO   ] [TRADER] received order status for order 170 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:57,008 [INFO   ] [TRADER] received order status for order 171 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:57,008 [INFO   ] [TRADER] received order status for order 172 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:57,008 [INFO   ] [TRADER] received order status for order 173 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:57,137 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 57
+2023-03-12 15:47:57,222 [INFO   ] [TRADER] received order status for order 172 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:57,222 [INFO   ] [TRADER] received order status for order 173 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:57,222 [INFO   ] [TRADER] received order status for order 174 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:57,223 [INFO   ] [TRADER] received order status for order 175 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:57,484 [INFO   ] [TRADER] received order status for order 174 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:57,484 [INFO   ] [TRADER] received order status for order 175 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:57,484 [INFO   ] [TRADER] received order status for order 176 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:57,485 [INFO   ] [TRADER] received order status for order 177 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:57,669 [INFO   ] [TRADER] received order status for order 176 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:57,669 [INFO   ] [TRADER] received order status for order 177 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:57,669 [INFO   ] [TRADER] received order status for order 178 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:57,669 [INFO   ] [TRADER] received order status for order 179 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:57,974 [INFO   ] [TRADER] received order status for order 178 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:57,974 [INFO   ] [TRADER] received order status for order 179 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:57,974 [INFO   ] [TRADER] received order status for order 180 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:57,974 [INFO   ] [TRADER] received order status for order 181 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:57,974 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 37
+2023-03-12 15:47:58,211 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 58
+2023-03-12 15:47:58,241 [INFO   ] [TRADER] received order status for order 180 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:58,241 [INFO   ] [TRADER] received order status for order 181 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:58,241 [INFO   ] [TRADER] received order status for order 182 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:58,241 [INFO   ] [TRADER] received order status for order 183 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:58,375 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 59
+2023-03-12 15:47:58,461 [INFO   ] [TRADER] received order status for order 182 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:58,461 [INFO   ] [TRADER] received order status for order 183 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:58,461 [INFO   ] [TRADER] received order status for order 184 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:58,461 [INFO   ] [TRADER] received order status for order 185 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:58,679 [INFO   ] [TRADER] received order status for order 184 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:58,679 [INFO   ] [TRADER] received order status for order 185 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:58,679 [INFO   ] [TRADER] received order status for order 186 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:58,679 [INFO   ] [TRADER] received order status for order 187 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:58,982 [INFO   ] [TRADER] received order status for order 186 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:58,982 [INFO   ] [TRADER] received order status for order 187 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:58,982 [INFO   ] [TRADER] received order status for order 188 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:58,982 [INFO   ] [TRADER] received order status for order 189 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:58,983 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 38
+2023-03-12 15:47:59,232 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 39
+2023-03-12 15:47:59,232 [INFO   ] [TRADER] received order status for order 188 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:59,232 [INFO   ] [TRADER] received order status for order 189 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:59,232 [INFO   ] [TRADER] received order status for order 190 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:59,232 [INFO   ] [TRADER] received order status for order 191 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:59,446 [INFO   ] [TRADER] received order status for order 190 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:59,446 [INFO   ] [TRADER] received order status for order 191 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:59,446 [INFO   ] [TRADER] received order status for order 192 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:59,446 [INFO   ] [TRADER] received order status for order 193 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:59,579 [INFO   ] [TRADER] OrderFill START!!!!! Position:-27
+2023-03-12 15:47:59,579 [INFO   ] [TRADER] id 194 , BID FUTURE
+2023-03-12 15:47:59,579 [INFO   ] [TRADER] Now Position:-39
+2023-03-12 15:47:59,579 [INFO   ] [TRADER] received order status for order 193 with fill volume 12 remaining 38 and fees -182
+2023-03-12 15:47:59,581 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 40
+2023-03-12 15:47:59,688 [INFO   ] [TRADER] received order status for order 192 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:59,688 [INFO   ] [TRADER] received order status for order 193 with fill volume 12 remaining 0 and fees -182
+2023-03-12 15:47:59,688 [INFO   ] [TRADER] received order status for order 195 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:59,688 [INFO   ] [TRADER] received order status for order 196 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:59,938 [INFO   ] [TRADER] received order status for order 195 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:59,938 [INFO   ] [TRADER] received order status for order 196 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:47:59,939 [INFO   ] [TRADER] received order status for order 197 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:59,939 [INFO   ] [TRADER] received order status for order 198 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:47:59,988 [INFO   ] [TRADER] OrderFill START!!!!! Position:-39
+2023-03-12 15:47:59,988 [INFO   ] [TRADER] id 199 , BID FUTURE
+2023-03-12 15:47:59,988 [INFO   ] [TRADER] Now Position:-89
+2023-03-12 15:47:59,988 [INFO   ] [TRADER] received order status for order 198 with fill volume 50 remaining 0 and fees -760
+2023-03-12 15:47:59,990 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 41
+2023-03-12 15:48:00,179 [INFO   ] [TRADER] received order status for order 197 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:00,179 [INFO   ] [TRADER] received order status for order 200 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:48:00,179 [INFO   ] [TRADER] received order status for order 201 with fill volume 0 remaining 11 and fees 0
+2023-03-12 15:48:00,373 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 60
+2023-03-12 15:48:00,483 [INFO   ] [TRADER] received order status for order 200 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:00,483 [INFO   ] [TRADER] received order status for order 201 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:00,483 [INFO   ] [TRADER] received order status for order 202 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:48:00,483 [INFO   ] [TRADER] received order status for order 203 with fill volume 0 remaining 11 and fees 0
+2023-03-12 15:48:00,702 [INFO   ] [TRADER] received order status for order 202 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:00,702 [INFO   ] [TRADER] received order status for order 203 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:00,702 [INFO   ] [TRADER] received order status for order 204 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:48:00,702 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 61
+2023-03-12 15:48:00,702 [INFO   ] [TRADER] received order status for order 205 with fill volume 0 remaining 11 and fees 0
+2023-03-12 15:48:01,008 [INFO   ] [TRADER] received order status for order 204 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:01,008 [INFO   ] [TRADER] received order status for order 205 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:01,008 [INFO   ] [TRADER] received order status for order 206 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:48:01,008 [INFO   ] [TRADER] received order status for order 207 with fill volume 0 remaining 11 and fees 0
+2023-03-12 15:48:01,119 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 62
+2023-03-12 15:48:01,246 [INFO   ] [TRADER] received order status for order 206 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:01,246 [INFO   ] [TRADER] received order status for order 207 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:01,246 [INFO   ] [TRADER] received order status for order 208 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:48:01,246 [INFO   ] [TRADER] received order status for order 209 with fill volume 0 remaining 11 and fees 0
+2023-03-12 15:48:01,449 [INFO   ] [TRADER] received order status for order 208 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:01,449 [INFO   ] [TRADER] received order status for order 209 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:01,449 [INFO   ] [TRADER] received order status for order 210 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:48:01,449 [INFO   ] [TRADER] received order status for order 211 with fill volume 0 remaining 11 and fees 0
+2023-03-12 15:48:01,676 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 63
+2023-03-12 15:48:01,677 [INFO   ] [TRADER] received order status for order 210 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:01,677 [INFO   ] [TRADER] received order status for order 211 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:01,677 [INFO   ] [TRADER] received order status for order 212 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:48:01,677 [INFO   ] [TRADER] received order status for order 213 with fill volume 0 remaining 11 and fees 0
+2023-03-12 15:48:01,832 [INFO   ] [TRADER] OrderFill START!!!!! Position:-89
+2023-03-12 15:48:01,832 [INFO   ] [TRADER] id 214 , BID FUTURE
+2023-03-12 15:48:01,832 [INFO   ] [TRADER] Now Position:-100
+2023-03-12 15:48:01,832 [INFO   ] [TRADER] received order status for order 213 with fill volume 11 remaining 0 and fees -167
+2023-03-12 15:48:01,832 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 42
+2023-03-12 15:48:01,955 [INFO   ] [TRADER] received order status for order 212 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:01,956 [INFO   ] [TRADER] received order status for order 215 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:48:01,956 [WARNING] [TRADER] error with order 216: %d is not a valid volume
+2023-03-12 15:48:01,956 [INFO   ] [TRADER] received order status for order 216 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:02,271 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 64
+2023-03-12 15:48:02,274 [INFO   ] [TRADER] received order status for order 215 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:02,274 [INFO   ] [TRADER] received order status for order 217 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:48:02,274 [WARNING] [TRADER] error with order 218: %d is not a valid volume
+2023-03-12 15:48:02,274 [INFO   ] [TRADER] received order status for order 218 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:02,493 [INFO   ] [TRADER] received order status for order 217 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:02,494 [INFO   ] [TRADER] received order status for order 219 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:48:02,494 [WARNING] [TRADER] error with order 220: %d is not a valid volume
+2023-03-12 15:48:02,494 [INFO   ] [TRADER] received order status for order 220 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:02,765 [INFO   ] [TRADER] received order status for order 219 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:02,765 [INFO   ] [TRADER] received order status for order 221 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:48:02,765 [WARNING] [TRADER] error with order 222: %d is not a valid volume
+2023-03-12 15:48:02,765 [INFO   ] [TRADER] received order status for order 222 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:02,928 [INFO   ] [TRADER] received order status for order 221 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:02,928 [INFO   ] [TRADER] received order status for order 223 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:48:02,928 [WARNING] [TRADER] error with order 224: %d is not a valid volume
+2023-03-12 15:48:02,928 [INFO   ] [TRADER] received order status for order 224 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:03,240 [INFO   ] [TRADER] received order status for order 223 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:03,240 [INFO   ] [TRADER] received order status for order 225 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:48:03,240 [WARNING] [TRADER] error with order 226: %d is not a valid volume
+2023-03-12 15:48:03,240 [INFO   ] [TRADER] received order status for order 226 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:03,414 [INFO   ] [TRADER] received order status for order 225 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:03,414 [INFO   ] [TRADER] received order status for order 227 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:48:03,414 [WARNING] [TRADER] error with order 228: %d is not a valid volume
+2023-03-12 15:48:03,414 [INFO   ] [TRADER] received order status for order 228 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:03,664 [INFO   ] [TRADER] received order status for order 227 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:03,664 [INFO   ] [TRADER] received order status for order 229 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:48:03,664 [WARNING] [TRADER] error with order 230: %d is not a valid volume
+2023-03-12 15:48:03,664 [INFO   ] [TRADER] received order status for order 230 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:03,942 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 65
+2023-03-12 15:48:03,982 [INFO   ] [TRADER] received order status for order 229 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:03,982 [INFO   ] [TRADER] received order status for order 231 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:48:03,982 [WARNING] [TRADER] error with order 232: %d is not a valid volume
+2023-03-12 15:48:03,982 [INFO   ] [TRADER] received order status for order 232 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:04,222 [INFO   ] [TRADER] received order status for order 231 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:04,222 [INFO   ] [TRADER] received order status for order 233 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:48:04,222 [WARNING] [TRADER] error with order 234: %d is not a valid volume
+2023-03-12 15:48:04,222 [INFO   ] [TRADER] received order status for order 234 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:04,468 [INFO   ] [TRADER] received order status for order 233 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:04,468 [INFO   ] [TRADER] received order status for order 235 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:48:04,468 [WARNING] [TRADER] error with order 236: %d is not a valid volume
+2023-03-12 15:48:04,469 [INFO   ] [TRADER] received order status for order 236 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:04,638 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 43
+2023-03-12 15:48:04,713 [INFO   ] [TRADER] received order status for order 235 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:04,713 [INFO   ] [TRADER] received order status for order 237 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:48:04,713 [WARNING] [TRADER] error with order 238: %d is not a valid volume
+2023-03-12 15:48:04,713 [INFO   ] [TRADER] received order status for order 238 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:04,920 [INFO   ] [TRADER] received order status for order 237 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:04,920 [INFO   ] [TRADER] received order status for order 239 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:48:04,920 [WARNING] [TRADER] error with order 240: %d is not a valid volume
+2023-03-12 15:48:04,920 [INFO   ] [TRADER] received order status for order 240 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:05,127 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 66
+2023-03-12 15:48:05,205 [INFO   ] [TRADER] received order status for order 239 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:05,205 [INFO   ] [TRADER] received order status for order 241 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:48:05,205 [WARNING] [TRADER] error with order 242: %d is not a valid volume
+2023-03-12 15:48:05,205 [INFO   ] [TRADER] received order status for order 242 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:05,458 [INFO   ] [TRADER] received order status for order 241 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:05,458 [INFO   ] [TRADER] received order status for order 243 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:48:05,458 [WARNING] [TRADER] error with order 244: %d is not a valid volume
+2023-03-12 15:48:05,458 [INFO   ] [TRADER] received order status for order 244 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:05,672 [INFO   ] [TRADER] received order status for order 243 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:05,672 [INFO   ] [TRADER] received order status for order 245 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:48:05,672 [WARNING] [TRADER] error with order 246: %d is not a valid volume
+2023-03-12 15:48:05,672 [INFO   ] [TRADER] received order status for order 246 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:06,001 [INFO   ] [TRADER] received order status for order 245 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:06,001 [INFO   ] [TRADER] received order status for order 247 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:48:06,001 [WARNING] [TRADER] error with order 248: %d is not a valid volume
+2023-03-12 15:48:06,001 [INFO   ] [TRADER] received order status for order 248 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:06,222 [INFO   ] [TRADER] received order status for order 247 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:06,222 [INFO   ] [TRADER] received order status for order 249 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:48:06,222 [WARNING] [TRADER] error with order 250: %d is not a valid volume
+2023-03-12 15:48:06,222 [INFO   ] [TRADER] received order status for order 250 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:06,460 [INFO   ] [TRADER] received order status for order 249 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:06,460 [INFO   ] [TRADER] received order status for order 251 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:48:06,461 [WARNING] [TRADER] error with order 252: %d is not a valid volume
+2023-03-12 15:48:06,461 [INFO   ] [TRADER] received order status for order 252 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:06,729 [INFO   ] [TRADER] received order status for order 251 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:06,729 [INFO   ] [TRADER] received order status for order 253 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:48:06,729 [WARNING] [TRADER] error with order 254: %d is not a valid volume
+2023-03-12 15:48:06,729 [INFO   ] [TRADER] received order status for order 254 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:06,984 [INFO   ] [TRADER] received order status for order 253 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:06,984 [INFO   ] [TRADER] received order status for order 255 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:48:06,984 [WARNING] [TRADER] error with order 256: %d is not a valid volume
+2023-03-12 15:48:06,984 [INFO   ] [TRADER] received order status for order 256 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:07,187 [INFO   ] [TRADER] received order status for order 255 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:07,187 [INFO   ] [TRADER] received order status for order 257 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:48:07,187 [WARNING] [TRADER] error with order 258: %d is not a valid volume
+2023-03-12 15:48:07,187 [INFO   ] [TRADER] received order status for order 258 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:07,429 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 67
+2023-03-12 15:48:07,506 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 68
+2023-03-12 15:48:07,506 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 44
+2023-03-12 15:48:07,507 [INFO   ] [TRADER] received order status for order 257 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:07,507 [INFO   ] [TRADER] received order status for order 259 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:48:07,507 [WARNING] [TRADER] error with order 260: %d is not a valid volume
+2023-03-12 15:48:07,507 [INFO   ] [TRADER] received order status for order 260 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:07,569 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 45
+2023-03-12 15:48:07,715 [INFO   ] [TRADER] received order status for order 259 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:07,716 [INFO   ] [TRADER] received order status for order 261 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:48:07,716 [WARNING] [TRADER] error with order 262: %d is not a valid volume
+2023-03-12 15:48:07,716 [INFO   ] [TRADER] received order status for order 262 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:07,885 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 69
+2023-03-12 15:48:07,946 [INFO   ] [TRADER] received order status for order 261 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:07,946 [INFO   ] [TRADER] received order status for order 263 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:48:07,947 [WARNING] [TRADER] error with order 264: %d is not a valid volume
+2023-03-12 15:48:07,947 [INFO   ] [TRADER] received order status for order 264 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:07,947 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 46
+2023-03-12 15:48:08,037 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 70
+2023-03-12 15:48:08,116 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 71
+2023-03-12 15:48:08,210 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 72
+2023-03-12 15:48:08,210 [INFO   ] [TRADER] received order status for order 263 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:08,210 [INFO   ] [TRADER] received order status for order 265 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:48:08,210 [WARNING] [TRADER] error with order 266: %d is not a valid volume
+2023-03-12 15:48:08,210 [INFO   ] [TRADER] received order status for order 266 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:08,210 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 47
+2023-03-12 15:48:08,367 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 73
+2023-03-12 15:48:08,476 [INFO   ] [TRADER] received order status for order 265 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:08,476 [INFO   ] [TRADER] received order status for order 267 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:48:08,476 [WARNING] [TRADER] error with order 268: %d is not a valid volume
+2023-03-12 15:48:08,476 [INFO   ] [TRADER] received order status for order 268 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:08,762 [INFO   ] [TRADER] received order status for order 267 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:08,763 [INFO   ] [TRADER] received order status for order 269 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:48:08,763 [WARNING] [TRADER] error with order 270: %d is not a valid volume
+2023-03-12 15:48:08,763 [INFO   ] [TRADER] received order status for order 270 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:08,968 [INFO   ] [TRADER] received order status for order 269 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:08,968 [INFO   ] [TRADER] received order status for order 271 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:48:08,969 [WARNING] [TRADER] error with order 272: %d is not a valid volume
+2023-03-12 15:48:08,969 [INFO   ] [TRADER] received order status for order 272 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:09,064 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 74
+2023-03-12 15:48:09,117 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 75
+2023-03-12 15:48:09,251 [INFO   ] [TRADER] received order status for order 271 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:09,251 [INFO   ] [TRADER] received order status for order 273 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:48:09,251 [WARNING] [TRADER] error with order 274: %d is not a valid volume
+2023-03-12 15:48:09,251 [INFO   ] [TRADER] received order status for order 274 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:09,317 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 48
+2023-03-12 15:48:09,461 [INFO   ] [TRADER] received order status for order 273 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:09,461 [INFO   ] [TRADER] received order status for order 275 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:48:09,461 [WARNING] [TRADER] error with order 276: %d is not a valid volume
+2023-03-12 15:48:09,461 [INFO   ] [TRADER] received order status for order 276 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:09,663 [INFO   ] [TRADER] received order status for order 275 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:09,663 [INFO   ] [TRADER] received order status for order 277 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:48:09,663 [WARNING] [TRADER] error with order 278: %d is not a valid volume
+2023-03-12 15:48:09,663 [INFO   ] [TRADER] received order status for order 278 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:09,829 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 76
+2023-03-12 15:48:10,030 [INFO   ] [TRADER] received order status for order 277 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:10,030 [INFO   ] [TRADER] received order status for order 279 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:48:10,030 [WARNING] [TRADER] error with order 280: %d is not a valid volume
+2023-03-12 15:48:10,030 [INFO   ] [TRADER] received order status for order 280 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:10,194 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 77
+2023-03-12 15:48:10,266 [INFO   ] [TRADER] received order status for order 279 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:10,266 [INFO   ] [TRADER] received order status for order 281 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:48:10,266 [WARNING] [TRADER] error with order 282: %d is not a valid volume
+2023-03-12 15:48:10,266 [INFO   ] [TRADER] received order status for order 282 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:10,371 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 78
+2023-03-12 15:48:10,439 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 79
+2023-03-12 15:48:10,509 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 80
+2023-03-12 15:48:10,509 [INFO   ] [TRADER] received order status for order 281 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:10,509 [INFO   ] [TRADER] received order status for order 283 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:48:10,509 [WARNING] [TRADER] error with order 284: %d is not a valid volume
+2023-03-12 15:48:10,509 [INFO   ] [TRADER] received order status for order 284 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:10,510 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 49
+2023-03-12 15:48:10,741 [INFO   ] [TRADER] received order status for order 283 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:10,741 [INFO   ] [TRADER] received order status for order 285 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:48:10,741 [WARNING] [TRADER] error with order 286: %d is not a valid volume
+2023-03-12 15:48:10,741 [INFO   ] [TRADER] received order status for order 286 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:10,964 [INFO   ] [TRADER] received order status for order 285 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:10,964 [INFO   ] [TRADER] received order status for order 287 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:48:10,964 [WARNING] [TRADER] error with order 288: %d is not a valid volume
+2023-03-12 15:48:10,964 [INFO   ] [TRADER] received order status for order 288 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:11,187 [INFO   ] [TRADER] received order status for order 287 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:11,187 [INFO   ] [TRADER] received order status for order 289 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:48:11,187 [WARNING] [TRADER] error with order 290: %d is not a valid volume
+2023-03-12 15:48:11,187 [INFO   ] [TRADER] received order status for order 290 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:11,236 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 81
+2023-03-12 15:48:11,332 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 82
+2023-03-12 15:48:11,488 [INFO   ] [TRADER] received order status for order 289 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:11,488 [INFO   ] [TRADER] received order status for order 291 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:48:11,488 [WARNING] [TRADER] error with order 292: %d is not a valid volume
+2023-03-12 15:48:11,488 [INFO   ] [TRADER] received order status for order 292 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:11,618 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 83
+2023-03-12 15:48:11,679 [INFO   ] [TRADER] received order status for order 291 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:11,679 [INFO   ] [TRADER] received order status for order 293 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:48:11,679 [WARNING] [TRADER] error with order 294: %d is not a valid volume
+2023-03-12 15:48:11,679 [INFO   ] [TRADER] received order status for order 294 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:11,726 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 84
+2023-03-12 15:48:11,978 [INFO   ] [TRADER] received order status for order 293 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:11,978 [INFO   ] [TRADER] received order status for order 295 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:48:11,978 [WARNING] [TRADER] error with order 296: %d is not a valid volume
+2023-03-12 15:48:11,978 [INFO   ] [TRADER] received order status for order 296 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:12,119 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 85
+2023-03-12 15:48:12,233 [INFO   ] [TRADER] received order status for order 295 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:12,233 [INFO   ] [TRADER] received order status for order 297 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:48:12,233 [WARNING] [TRADER] error with order 298: %d is not a valid volume
+2023-03-12 15:48:12,233 [INFO   ] [TRADER] received order status for order 298 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:12,514 [INFO   ] [TRADER] received order status for order 297 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:12,514 [INFO   ] [TRADER] received order status for order 299 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:48:12,514 [WARNING] [TRADER] error with order 300: %d is not a valid volume
+2023-03-12 15:48:12,515 [INFO   ] [TRADER] received order status for order 300 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:12,579 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 86
+2023-03-12 15:48:12,738 [INFO   ] [TRADER] received order status for order 299 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:12,738 [INFO   ] [TRADER] received order status for order 301 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:48:12,738 [WARNING] [TRADER] error with order 302: %d is not a valid volume
+2023-03-12 15:48:12,738 [INFO   ] [TRADER] received order status for order 302 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:12,957 [INFO   ] [TRADER] received order status for order 301 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:12,957 [INFO   ] [TRADER] received order status for order 303 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:48:12,957 [WARNING] [TRADER] error with order 304: %d is not a valid volume
+2023-03-12 15:48:12,957 [INFO   ] [TRADER] received order status for order 304 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:13,172 [INFO   ] [TRADER] received order status for order 303 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:13,172 [INFO   ] [TRADER] received order status for order 305 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:48:13,173 [WARNING] [TRADER] error with order 306: %d is not a valid volume
+2023-03-12 15:48:13,173 [INFO   ] [TRADER] received order status for order 306 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:13,429 [INFO   ] [TRADER] received order status for order 305 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:13,429 [INFO   ] [TRADER] received order status for order 307 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:48:13,429 [WARNING] [TRADER] error with order 308: %d is not a valid volume
+2023-03-12 15:48:13,429 [INFO   ] [TRADER] received order status for order 308 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:13,572 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 87
+2023-03-12 15:48:13,620 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 88
+2023-03-12 15:48:13,681 [INFO   ] [TRADER] received order status for order 307 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:13,681 [INFO   ] [TRADER] received order status for order 309 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:48:13,681 [WARNING] [TRADER] error with order 310: %d is not a valid volume
+2023-03-12 15:48:13,681 [INFO   ] [TRADER] received order status for order 310 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:13,919 [INFO   ] [TRADER] received order status for order 309 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:13,920 [INFO   ] [TRADER] received order status for order 311 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:48:13,920 [WARNING] [TRADER] error with order 312: %d is not a valid volume
+2023-03-12 15:48:13,920 [INFO   ] [TRADER] received order status for order 312 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:14,220 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 89
+2023-03-12 15:48:14,255 [INFO   ] [TRADER] received order status for order 311 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:14,255 [INFO   ] [TRADER] received order status for order 313 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:48:14,255 [WARNING] [TRADER] error with order 314: %d is not a valid volume
+2023-03-12 15:48:14,255 [INFO   ] [TRADER] received order status for order 314 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:14,414 [INFO   ] [TRADER] received order status for order 313 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:14,414 [INFO   ] [TRADER] received order status for order 315 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:48:14,414 [WARNING] [TRADER] error with order 316: %d is not a valid volume
+2023-03-12 15:48:14,414 [INFO   ] [TRADER] received order status for order 316 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:14,684 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 90
+2023-03-12 15:48:14,684 [INFO   ] [TRADER] received order status for order 315 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:14,684 [INFO   ] [TRADER] received order status for order 317 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:48:14,684 [WARNING] [TRADER] error with order 318: %d is not a valid volume
+2023-03-12 15:48:14,684 [INFO   ] [TRADER] received order status for order 318 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:14,916 [INFO   ] [TRADER] received order status for order 317 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:14,916 [INFO   ] [TRADER] received order status for order 319 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:48:14,916 [WARNING] [TRADER] error with order 320: %d is not a valid volume
+2023-03-12 15:48:14,916 [INFO   ] [TRADER] received order status for order 320 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:15,262 [INFO   ] [TRADER] received order status for order 319 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:15,262 [INFO   ] [TRADER] received order status for order 321 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:48:15,262 [WARNING] [TRADER] error with order 322: %d is not a valid volume
+2023-03-12 15:48:15,262 [INFO   ] [TRADER] received order status for order 322 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:15,439 [INFO   ] [TRADER] received order status for order 321 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:15,439 [INFO   ] [TRADER] received order status for order 323 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:48:15,439 [WARNING] [TRADER] error with order 324: %d is not a valid volume
+2023-03-12 15:48:15,439 [INFO   ] [TRADER] received order status for order 324 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:15,676 [INFO   ] [TRADER] received order status for order 323 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:15,676 [INFO   ] [TRADER] received order status for order 325 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:48:15,676 [WARNING] [TRADER] error with order 326: %d is not a valid volume
+2023-03-12 15:48:15,676 [INFO   ] [TRADER] received order status for order 326 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:15,978 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 50
+2023-03-12 15:48:15,978 [INFO   ] [TRADER] received order status for order 325 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:15,978 [INFO   ] [TRADER] received order status for order 327 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:48:15,978 [WARNING] [TRADER] error with order 328: %d is not a valid volume
+2023-03-12 15:48:15,978 [INFO   ] [TRADER] received order status for order 328 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:16,121 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 91
+2023-03-12 15:48:16,229 [INFO   ] [TRADER] received order status for order 327 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:16,230 [INFO   ] [TRADER] received order status for order 329 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:48:16,230 [WARNING] [TRADER] error with order 330: %d is not a valid volume
+2023-03-12 15:48:16,230 [INFO   ] [TRADER] received order status for order 330 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:16,322 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 51
+2023-03-12 15:48:16,523 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 52
+2023-03-12 15:48:16,523 [INFO   ] [TRADER] received order status for order 329 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:16,523 [INFO   ] [TRADER] received order status for order 331 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:48:16,523 [WARNING] [TRADER] error with order 332: %d is not a valid volume
+2023-03-12 15:48:16,523 [INFO   ] [TRADER] received order status for order 332 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:16,728 [INFO   ] [TRADER] received order status for order 331 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:16,728 [INFO   ] [TRADER] received order status for order 333 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:48:16,728 [WARNING] [TRADER] error with order 334: %d is not a valid volume
+2023-03-12 15:48:16,728 [INFO   ] [TRADER] received order status for order 334 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:16,885 [INFO   ] [TRADER] OrderFill START!!!!! Position:-100
+2023-03-12 15:48:16,885 [INFO   ] [TRADER] id 335 , ASK FUTURE
+2023-03-12 15:48:16,885 [INFO   ] [TRADER] Now Position:-50
+2023-03-12 15:48:16,885 [INFO   ] [TRADER] received order status for order 333 with fill volume 50 remaining 0 and fees -751
+2023-03-12 15:48:16,885 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 53
+2023-03-12 15:48:16,979 [INFO   ] [TRADER] received order status for order 336 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:48:16,979 [INFO   ] [TRADER] received order status for order 337 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:48:17,087 [INFO   ] [TRADER] OrderFill START!!!!! Position:-50
+2023-03-12 15:48:17,087 [INFO   ] [TRADER] id 338 , ASK FUTURE
+2023-03-12 15:48:17,087 [INFO   ] [TRADER] Now Position:-27
+2023-03-12 15:48:17,087 [INFO   ] [TRADER] received order status for order 336 with fill volume 23 remaining 27 and fees -346
+2023-03-12 15:48:17,088 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 54
+2023-03-12 15:48:17,233 [INFO   ] [TRADER] received order status for order 336 with fill volume 23 remaining 0 and fees -346
+2023-03-12 15:48:17,233 [INFO   ] [TRADER] received order status for order 337 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:17,233 [INFO   ] [TRADER] received order status for order 339 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:48:17,233 [INFO   ] [TRADER] received order status for order 340 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:48:17,482 [INFO   ] [TRADER] received order status for order 339 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:17,482 [INFO   ] [TRADER] received order status for order 340 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:17,482 [INFO   ] [TRADER] OrderFill START!!!!! Position:-27
+2023-03-12 15:48:17,482 [INFO   ] [TRADER] id 343 , ASK FUTURE
+2023-03-12 15:48:17,482 [INFO   ] [TRADER] Now Position:14
+2023-03-12 15:48:17,482 [INFO   ] [TRADER] received order status for order 341 with fill volume 41 remaining 9 and fees 1235
+2023-03-12 15:48:17,482 [INFO   ] [TRADER] OrderFill START!!!!! Position:14
+2023-03-12 15:48:17,483 [INFO   ] [TRADER] id 344 , ASK FUTURE
+2023-03-12 15:48:17,483 [INFO   ] [TRADER] Now Position:23
+2023-03-12 15:48:17,483 [INFO   ] [TRADER] received order status for order 341 with fill volume 50 remaining 0 and fees 1506
+2023-03-12 15:48:17,483 [INFO   ] [TRADER] received order status for order 342 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:48:17,483 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 55
+2023-03-12 15:48:17,542 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 56
+2023-03-12 15:48:17,759 [INFO   ] [TRADER] received order status for order 342 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:17,760 [INFO   ] [TRADER] OrderFill START!!!!! Position:23
+2023-03-12 15:48:17,760 [INFO   ] [TRADER] id 347 , ASK FUTURE
+2023-03-12 15:48:17,760 [INFO   ] [TRADER] Now Position:73
+2023-03-12 15:48:17,760 [INFO   ] [TRADER] received order status for order 345 with fill volume 50 remaining 0 and fees 1507
+2023-03-12 15:48:17,760 [INFO   ] [TRADER] received order status for order 346 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:48:17,760 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 57
+2023-03-12 15:48:17,870 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 92
+2023-03-12 15:48:17,932 [INFO   ] [TRADER] OrderFill START!!!!! Position:73
+2023-03-12 15:48:17,932 [INFO   ] [TRADER] id 348 , BID FUTURE
+2023-03-12 15:48:17,932 [INFO   ] [TRADER] Now Position:68
+2023-03-12 15:48:17,932 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 58
+2023-03-12 15:48:17,932 [INFO   ] [TRADER] received order status for order 346 with fill volume 5 remaining 45 and fees -76
+2023-03-12 15:48:17,932 [INFO   ] [TRADER] received order status for order 346 with fill volume 5 remaining 0 and fees -76
+2023-03-12 15:48:17,932 [INFO   ] [TRADER] received order status for order 349 with fill volume 0 remaining 32 and fees 0
+2023-03-12 15:48:17,933 [INFO   ] [TRADER] received order status for order 350 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:48:18,238 [INFO   ] [TRADER] received order status for order 349 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:18,239 [INFO   ] [TRADER] received order status for order 350 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:18,239 [INFO   ] [TRADER] received order status for order 351 with fill volume 0 remaining 32 and fees 0
+2023-03-12 15:48:18,239 [INFO   ] [TRADER] received order status for order 352 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:48:18,318 [INFO   ] [TRADER] OrderFill START!!!!! Position:68
+2023-03-12 15:48:18,318 [INFO   ] [TRADER] id 353 , BID FUTURE
+2023-03-12 15:48:18,318 [INFO   ] [TRADER] Now Position:43
+2023-03-12 15:48:18,318 [INFO   ] [TRADER] received order status for order 352 with fill volume 25 remaining 25 and fees -378
+2023-03-12 15:48:18,319 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 59
+2023-03-12 15:48:18,414 [INFO   ] [TRADER] received order status for order 351 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:18,414 [INFO   ] [TRADER] received order status for order 352 with fill volume 25 remaining 0 and fees -378
+2023-03-12 15:48:18,415 [INFO   ] [TRADER] received order status for order 354 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:48:18,415 [INFO   ] [TRADER] received order status for order 355 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:48:18,518 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 93
+2023-03-12 15:48:18,697 [INFO   ] [TRADER] OrderFill START!!!!! Position:43
+2023-03-12 15:48:18,697 [INFO   ] [TRADER] id 358 , BID FUTURE
+2023-03-12 15:48:18,697 [INFO   ] [TRADER] Now Position:-7
+2023-03-12 15:48:18,698 [INFO   ] [TRADER] received order status for order 355 with fill volume 50 remaining 0 and fees -756
+2023-03-12 15:48:18,698 [INFO   ] [TRADER] received order status for order 354 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:18,698 [INFO   ] [TRADER] OrderFill START!!!!! Position:-7
+2023-03-12 15:48:18,698 [INFO   ] [TRADER] id 359 , ASK FUTURE
+2023-03-12 15:48:18,698 [INFO   ] [TRADER] Now Position:43
+2023-03-12 15:48:18,698 [INFO   ] [TRADER] received order status for order 356 with fill volume 50 remaining 0 and fees 1512
+2023-03-12 15:48:18,698 [INFO   ] [TRADER] received order status for order 357 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:48:18,698 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 60
+2023-03-12 15:48:18,937 [INFO   ] [TRADER] received order status for order 357 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:18,937 [INFO   ] [TRADER] received order status for order 360 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:48:18,937 [INFO   ] [TRADER] received order status for order 361 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:48:19,240 [INFO   ] [TRADER] received order status for order 360 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:19,240 [INFO   ] [TRADER] received order status for order 361 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:19,240 [INFO   ] [TRADER] received order status for order 362 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:48:19,240 [INFO   ] [TRADER] received order status for order 363 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:48:19,427 [INFO   ] [TRADER] received order status for order 362 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:19,427 [INFO   ] [TRADER] received order status for order 363 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:19,428 [INFO   ] [TRADER] received order status for order 364 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:48:19,428 [INFO   ] [TRADER] received order status for order 365 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:48:19,623 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 94
+2023-03-12 15:48:19,718 [INFO   ] [TRADER] received order status for order 364 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:19,718 [INFO   ] [TRADER] received order status for order 365 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:19,718 [INFO   ] [TRADER] received order status for order 366 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:48:19,718 [INFO   ] [TRADER] received order status for order 367 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:48:19,843 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 95
+2023-03-12 15:48:20,016 [INFO   ] [TRADER] received order status for order 366 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:20,016 [INFO   ] [TRADER] received order status for order 367 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:20,016 [INFO   ] [TRADER] OrderFill START!!!!! Position:43
+2023-03-12 15:48:20,016 [INFO   ] [TRADER] id 370 , ASK FUTURE
+2023-03-12 15:48:20,016 [INFO   ] [TRADER] Now Position:93
+2023-03-12 15:48:20,016 [INFO   ] [TRADER] received order status for order 368 with fill volume 50 remaining 0 and fees 1512
+2023-03-12 15:48:20,016 [INFO   ] [TRADER] received order status for order 369 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:48:20,016 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 61
+2023-03-12 15:48:20,220 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 62
+2023-03-12 15:48:20,220 [INFO   ] [TRADER] received order status for order 369 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:20,220 [INFO   ] [TRADER] received order status for order 371 with fill volume 0 remaining 7 and fees 0
+2023-03-12 15:48:20,220 [INFO   ] [TRADER] received order status for order 372 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:48:20,364 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 96
+2023-03-12 15:48:20,434 [INFO   ] [TRADER] received order status for order 371 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:20,435 [INFO   ] [TRADER] received order status for order 372 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:20,435 [INFO   ] [TRADER] OrderFill START!!!!! Position:93
+2023-03-12 15:48:20,435 [INFO   ] [TRADER] id 375 , ASK FUTURE
+2023-03-12 15:48:20,435 [INFO   ] [TRADER] Now Position:100
+2023-03-12 15:48:20,435 [INFO   ] [TRADER] received order status for order 373 with fill volume 7 remaining 0 and fees 212
+2023-03-12 15:48:20,435 [INFO   ] [TRADER] received order status for order 374 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:48:20,436 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 63
+2023-03-12 15:48:20,663 [INFO   ] [TRADER] received order status for order 374 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:20,663 [WARNING] [TRADER] error with order 376: %d is not a valid volume
+2023-03-12 15:48:20,663 [INFO   ] [TRADER] received order status for order 376 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:20,663 [INFO   ] [TRADER] received order status for order 377 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:48:20,966 [INFO   ] [TRADER] received order status for order 377 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:20,966 [WARNING] [TRADER] error with order 378: %d is not a valid volume
+2023-03-12 15:48:20,966 [INFO   ] [TRADER] received order status for order 378 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:20,966 [INFO   ] [TRADER] received order status for order 379 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:48:21,127 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 97
+2023-03-12 15:48:21,261 [INFO   ] [TRADER] received order status for order 379 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:21,261 [WARNING] [TRADER] error with order 380: %d is not a valid volume
+2023-03-12 15:48:21,261 [INFO   ] [TRADER] received order status for order 380 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:21,261 [INFO   ] [TRADER] received order status for order 381 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:48:21,497 [INFO   ] [TRADER] received order status for order 381 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:21,497 [WARNING] [TRADER] error with order 382: %d is not a valid volume
+2023-03-12 15:48:21,497 [INFO   ] [TRADER] received order status for order 382 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:21,497 [INFO   ] [TRADER] received order status for order 383 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:48:21,628 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 98
+2023-03-12 15:48:21,719 [INFO   ] [TRADER] received order status for order 383 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:21,720 [WARNING] [TRADER] error with order 384: %d is not a valid volume
+2023-03-12 15:48:21,720 [INFO   ] [TRADER] received order status for order 384 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:21,720 [INFO   ] [TRADER] received order status for order 385 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:48:21,882 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 99
+2023-03-12 15:48:21,937 [INFO   ] [TRADER] received order status for order 385 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:21,937 [WARNING] [TRADER] error with order 386: %d is not a valid volume
+2023-03-12 15:48:21,937 [INFO   ] [TRADER] received order status for order 386 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:21,937 [INFO   ] [TRADER] received order status for order 387 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:48:22,210 [INFO   ] [TRADER] received order status for order 387 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:22,210 [WARNING] [TRADER] error with order 388: %d is not a valid volume
+2023-03-12 15:48:22,210 [INFO   ] [TRADER] received order status for order 388 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:22,210 [INFO   ] [TRADER] received order status for order 389 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:48:22,461 [INFO   ] [TRADER] received order status for order 389 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:22,461 [WARNING] [TRADER] error with order 390: %d is not a valid volume
+2023-03-12 15:48:22,461 [INFO   ] [TRADER] received order status for order 390 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:22,461 [INFO   ] [TRADER] received order status for order 391 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:48:22,759 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 100
+2023-03-12 15:48:22,759 [INFO   ] [TRADER] received order status for order 391 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:22,759 [WARNING] [TRADER] error with order 392: %d is not a valid volume
+2023-03-12 15:48:22,759 [INFO   ] [TRADER] received order status for order 392 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:22,759 [INFO   ] [TRADER] received order status for order 393 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:48:22,759 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 64
+2023-03-12 15:48:22,997 [INFO   ] [TRADER] received order status for order 393 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:22,997 [WARNING] [TRADER] error with order 394: %d is not a valid volume
+2023-03-12 15:48:22,997 [INFO   ] [TRADER] received order status for order 394 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:22,997 [INFO   ] [TRADER] OrderFill START!!!!! Position:100
+2023-03-12 15:48:22,997 [INFO   ] [TRADER] id 396 , BID FUTURE
+2023-03-12 15:48:22,997 [INFO   ] [TRADER] Now Position:95
+2023-03-12 15:48:22,997 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 65
+2023-03-12 15:48:22,997 [INFO   ] [TRADER] received order status for order 395 with fill volume 5 remaining 45 and fees 152
+2023-03-12 15:48:23,263 [INFO   ] [TRADER] received order status for order 395 with fill volume 5 remaining 0 and fees 152
+2023-03-12 15:48:23,263 [INFO   ] [TRADER] received order status for order 397 with fill volume 0 remaining 5 and fees 0
+2023-03-12 15:48:23,264 [INFO   ] [TRADER] received order status for order 398 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:48:23,468 [INFO   ] [TRADER] received order status for order 397 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:23,468 [INFO   ] [TRADER] received order status for order 398 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:23,468 [INFO   ] [TRADER] received order status for order 399 with fill volume 0 remaining 5 and fees 0
+2023-03-12 15:48:23,468 [INFO   ] [TRADER] received order status for order 400 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:48:23,538 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 101
+2023-03-12 15:48:23,578 [INFO   ] [TRADER] OrderFill START!!!!! Position:95
+2023-03-12 15:48:23,578 [INFO   ] [TRADER] id 401 , ASK FUTURE
+2023-03-12 15:48:23,578 [INFO   ] [TRADER] Now Position:100
+2023-03-12 15:48:23,578 [INFO   ] [TRADER] received order status for order 399 with fill volume 5 remaining 0 and fees -76
+2023-03-12 15:48:23,580 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 66
+2023-03-12 15:48:23,771 [INFO   ] [TRADER] received order status for order 400 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:23,771 [WARNING] [TRADER] error with order 402: %d is not a valid volume
+2023-03-12 15:48:23,771 [INFO   ] [TRADER] received order status for order 402 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:23,771 [INFO   ] [TRADER] received order status for order 403 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:48:23,771 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 67
+2023-03-12 15:48:23,930 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 102
+2023-03-12 15:48:23,930 [INFO   ] [TRADER] received order status for order 403 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:23,930 [WARNING] [TRADER] error with order 404: %d is not a valid volume
+2023-03-12 15:48:23,930 [INFO   ] [TRADER] received order status for order 404 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:23,930 [INFO   ] [TRADER] received order status for order 405 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:48:24,118 [INFO   ] [TRADER] OrderFill START!!!!! Position:100
+2023-03-12 15:48:24,118 [INFO   ] [TRADER] id 406 , BID FUTURE
+2023-03-12 15:48:24,118 [INFO   ] [TRADER] Now Position:97
+2023-03-12 15:48:24,118 [INFO   ] [TRADER] received order status for order 405 with fill volume 3 remaining 47 and fees -45
+2023-03-12 15:48:24,119 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 68
+2023-03-12 15:48:24,182 [INFO   ] [TRADER] received order status for order 405 with fill volume 3 remaining 0 and fees -45
+2023-03-12 15:48:24,183 [INFO   ] [TRADER] received order status for order 407 with fill volume 0 remaining 3 and fees 0
+2023-03-12 15:48:24,183 [INFO   ] [TRADER] received order status for order 408 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:48:24,515 [INFO   ] [TRADER] received order status for order 407 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:24,516 [INFO   ] [TRADER] received order status for order 408 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:24,516 [INFO   ] [TRADER] received order status for order 409 with fill volume 0 remaining 3 and fees 0
+2023-03-12 15:48:24,516 [INFO   ] [TRADER] received order status for order 410 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:48:24,586 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 103
+2023-03-12 15:48:24,758 [INFO   ] [TRADER] received order status for order 409 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:24,758 [INFO   ] [TRADER] received order status for order 410 with fill volume 0 remaining 0 and fees 0
+2023-03-12 15:48:24,758 [INFO   ] [TRADER] received order status for order 411 with fill volume 0 remaining 3 and fees 0
+2023-03-12 15:48:24,758 [INFO   ] [TRADER] received order status for order 412 with fill volume 0 remaining 50 and fees 0
+2023-03-12 15:48:24,758 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 69

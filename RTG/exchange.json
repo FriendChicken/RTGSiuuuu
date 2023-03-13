@@ -58,6 +58,19 @@
     "allin33": "secret",
     "allin50": "secret",
     "allin50_2": "secret",
-    "ZeroStrategy": "secret"
+    "ZeroStrategy": "secret",
+    "allin50change": "secret",
+    "allin50Liq": "secret",
+    "allin50Liq2": "secret",
+    "allin20Liq": "secret",
+    "CheckTick": "secret",
+    "SB": "secret",
+    "allin50orderfill": "secret",
+    "allin50orderfillLiq2": "secret",
+    "allin50orderfillLiq2chep": "secret",
+    "allin50liq50": "secret",
+    "allin50orderfillLiqA": "secret",
+    "allin50DEBUG": "secret",
+    "allin50DEBUG2": "secret"
   }
 }

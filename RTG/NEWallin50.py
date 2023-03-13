@@ -98,10 +98,12 @@ class AutoTrader(BaseAutoTrader):
         """self.logger.info("received order book for instrument %d with sequence number %d", instrument,
                     sequence_number)
         self.logger.info("Current Position: %d",self.position)"""
+
         self.ask_prices[instrument]=ask_prices
         self.ask_volumes[instrument]=ask_volumes
         self.bid_prices[instrument]=bid_prices
         self.bid_volumes[instrument]=bid_volumes
+
         """if instrument == Instrument.ETF:
             if self.bid_prices[1][0]>=PRICETHRESHODE+self.ask_prices[0][0]:
                 #calculate lot size(My_lot_size)
@@ -132,35 +134,7 @@ class AutoTrader(BaseAutoTrader):
 
         if instrument == Instrument.FUTURE:
             price_adjustment = - (self.position // LOT_SIZE) * TICK_SIZE_IN_CENTS
-            new_bid_price = bid_prices[0] -100  if bid_prices[0] != 0 else 0
-            new_ask_price = ask_prices[0] +100  if ask_prices[0] != 0 else 0
 
-            if self.bid_id != 0 :
-                self.send_cancel_order(self.bid_id)
-                self.bid_id = 0
-            if self.ask_id != 0 :
-                self.send_cancel_order(self.ask_id)
-                self.ask_id = 0
-
-            if self.bid_id == 0 and new_bid_price != 0 :
-                self.bid_id = next(self.order_ids)
-                self.bid_price = new_bid_price
-                if self.bid_Safe:
-                    self.send_insert_order(self.bid_id, Side.BUY, new_bid_price, min(50,POSITION_LIMIT-self.position), Lifespan.GOOD_FOR_DAY)
-                else:
-                    self.send_insert_order(self.bid_id, Side.BUY, new_bid_price, POSITION_LIMIT-self.position, Lifespan.GOOD_FOR_DAY)
-                    self.bid_Safe=True
-                self.bids.add(self.bid_id)
-
-            if self.ask_id == 0 and new_ask_price != 0 :
-                self.ask_id = next(self.order_ids)
-                self.ask_price = new_ask_price
-                if self.ask_Safe:
-                    self.send_insert_order(self.ask_id, Side.SELL, new_ask_price, min(50,POSITION_LIMIT+self.position), Lifespan.GOOD_FOR_DAY)
-                else:
-                    self.send_insert_order(self.ask_id, Side.SELL, new_ask_price, POSITION_LIMIT+self.position, Lifespan.GOOD_FOR_DAY)
-                    self.ask_Safe=True
-                self.asks.add(self.ask_id)
 
     def on_order_filled_message(self, client_order_id: int, price: int, volume: int) -> None:
         """Called when one of your orders is filled, partially or fully.
@@ -206,6 +180,35 @@ class AutoTrader(BaseAutoTrader):
             self.position += fill_volume
         if client_order_id in self.asks:
             self.position -= fill_volume
+        new_bid_price = self.bid_prices[0][0] -100  if self.bid_prices[0][0] != 0 else 0
+        new_ask_price = self.ask_prices[0][0] +100  if self.ask_prices[0][0] != 0 else 0
+
+        if self.bid_id != 0 :
+            self.send_cancel_order(self.bid_id)
+            self.bid_id = 0
+        if self.ask_id != 0 :
+            self.send_cancel_order(self.ask_id)
+            self.ask_id = 0
+
+        if self.bid_id == 0 and new_bid_price != 0 :
+            self.bid_id = next(self.order_ids)
+            self.bid_price = new_bid_price
+            if self.bid_Safe:
+                self.send_insert_order(self.bid_id, Side.BUY, new_bid_price, min(50,POSITION_LIMIT-self.position), Lifespan.GOOD_FOR_DAY)
+            else:
+                self.send_insert_order(self.bid_id, Side.BUY, new_bid_price, POSITION_LIMIT-self.position, Lifespan.GOOD_FOR_DAY)
+                self.bid_Safe=True
+            self.bids.add(self.bid_id)
+
+        if self.ask_id == 0 and new_ask_price != 0 :
+            self.ask_id = next(self.order_ids)
+            self.ask_price = new_ask_price
+            if self.ask_Safe:
+                self.send_insert_order(self.ask_id, Side.SELL, new_ask_price, min(50,POSITION_LIMIT+self.position), Lifespan.GOOD_FOR_DAY)
+            else:
+                self.send_insert_order(self.ask_id, Side.SELL, new_ask_price, POSITION_LIMIT+self.position, Lifespan.GOOD_FOR_DAY)
+                self.ask_Safe=True
+            self.asks.add(self.ask_id)
             # It could be either a bid or an ask
         
         
@@ -221,6 +224,9 @@ class AutoTrader(BaseAutoTrader):
         If there are less than five prices on a side, then zeros will appear at
         the end of both the prices and volumes arrays.
         """
-
+        self.ask_prices[instrument]=ask_prices
+        self.ask_volumes[instrument]=ask_volumes
+        self.bid_prices[instrument]=bid_prices
+        self.bid_volumes[instrument]=bid_volumes
         self.logger.info("received trade ticks for instrument %d with sequence number %d", instrument,
                          sequence_number)
