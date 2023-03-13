@@ -79,21 +79,16 @@ class AutoTrader(BaseAutoTrader):
         prices are reported along with the volume available at each of those
         price levels.
         """
+        self.TICK+=1
         if self.tick_id==0:
             return
         self.logger.info("received order book for instrument %d with sequence number %d", instrument,
                          sequence_number)
         self.logger.info("TICK=%d", self.TICK)
-        if self.tick_id==-1 and (ask_prices[0]!=0 or bid_prices[0]!=0):
+        if self.TICK==5:
             tmp_id=next(self.order_ids)
-            self.send_insert_order(tmp_id, Side.SELL, 100*100000, 1, Lifespan.GOOD_FOR_DAY)
-            self.tick_id=tmp_id
-            self.asks.add(self.tick_id)
-
-        if self.TICK>10 and self.TICK<30:
-            tmp_id=next(self.order_ids)
-            self.send_insert_order(tmp_id, Side.BUY, 100*1000000, 1, Lifespan.GOOD_FOR_DAY)
-            self.bids.add(self.tmp_id)
+            self.send_insert_order(tmp_id, Side.BUY, 100*1000000, 10000, Lifespan.GOOD_FOR_DAY)
+            self.bids.add(tmp_id)
 
     def on_order_filled_message(self, client_order_id: int, price: int, volume: int) -> None:
         """Called when one of your orders is filled, partially or fully.

@@ -59,6 +59,7 @@ class AutoTrader(BaseAutoTrader):
         self.TICK=0
         self.statusflag=True
         self.tick_id=-1
+        self.GiveOrderSingleton=False
 
     def on_error_message(self, client_order_id: int, error_message: bytes) -> None:
         """Called when the exchange detects an error.
@@ -90,6 +91,10 @@ class AutoTrader(BaseAutoTrader):
             self.send_cancel_order(self.ask_id)
             self.ask_id = 0
         """
+        if self.GiveOrderSingleton:
+            return
+        self.GiveOrderSingleton=True
+
         if self.bid_id == 0 and self.new_bid_price != 0 :
             self.bid_id = next(self.order_ids)
             self.bid_price = self.new_bid_price
@@ -111,6 +116,7 @@ class AutoTrader(BaseAutoTrader):
                 else:
                     self.send_insert_order(self.ask_id, Side.SELL, self.new_ask_price-100, tmp_lot, Lifespan.GOOD_FOR_DAY)
             self.asks.add(self.ask_id)
+        self.GiveOrderSingleton=False
 
     def on_order_book_update_message(self, instrument: int, sequence_number: int, ask_prices: List[int],
                                      ask_volumes: List[int], bid_prices: List[int], bid_volumes: List[int]) -> None:

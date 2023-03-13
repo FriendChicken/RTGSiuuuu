@@ -57,7 +57,8 @@ class AutoTrader(BaseAutoTrader):
         self.new_bid_price=0
         self.new_ask_price=0
         self.TICK=0
-        self.statusflag=True
+        self.statusbidflag=True
+        self.statusaskflag=True
         self.tick_id=-1
         self.GiveOrderSingleton=False
 
@@ -81,7 +82,7 @@ class AutoTrader(BaseAutoTrader):
         """self.logger.info("received hedge filled for order %d with average price %d and volume %d", client_order_id,
                          price, volume)"""
 
-    def giveOrder(self):
+    def giveBuyOrder(self):
 
         """
         if self.bid_id != 0 and self.new_bid_price not in (self.bid_price, 0):
@@ -91,32 +92,48 @@ class AutoTrader(BaseAutoTrader):
             self.send_cancel_order(self.ask_id)
             self.ask_id = 0
         """
-        if self.GiveOrderSingleton:
-            return
-        self.GiveOrderSingleton=True
-
+        self.logger.info("giveOverSingleton activate! self.postion=%d", self.position)
         if self.bid_id == 0 and self.new_bid_price != 0 :
-            self.bid_id = next(self.order_ids)
+            
             self.bid_price = self.new_bid_price
             tmp_lot=min(49,POSITION_LIMIT-self.position)
             if tmp_lot!=0:
+                self.bid_id = next(self.order_ids)
+                self.statusbidflag=False
                 if self.position >-40:
+                    self.logger.info("send buy order with id %d, price %d,lot %d", self.bid_id, self.new_bid_price,tmp_lot)
                     self.send_insert_order(self.bid_id, Side.BUY, self.new_bid_price, tmp_lot, Lifespan.GOOD_FOR_DAY)
                 else:
-                    self.send_insert_order(self.bid_id, Side.BUY, self.new_bid_price+200, tmp_lot, Lifespan.GOOD_FOR_DAY)
-            self.bids.add(self.bid_id)
+                    self.logger.info("send buy order with id %d, price %d,lot %d", self.bid_id, self.new_bid_price+100,tmp_lot)
+                    self.send_insert_order(self.bid_id, Side.BUY, self.new_bid_price+100, tmp_lot, Lifespan.GOOD_FOR_DAY)
+                self.bids.add(self.bid_id)
+
+    def giveAskOrder(self):
+
+        """
+        if self.bid_id != 0 and self.new_bid_price not in (self.bid_price, 0):
+            self.send_cancel_order(self.bid_id)
+            self.bid_id = 0
+        if self.ask_id != 0 and self.new_ask_price not in (self.ask_price, 0):
+            self.send_cancel_order(self.ask_id)
+            self.ask_id = 0
+        """
+        self.logger.info("giveOverSingleton activate! self.postion=%d", self.position)
 
         if self.ask_id == 0 and self.new_ask_price != 0 :
-            self.ask_id = next(self.order_ids)
+           
             self.ask_price = self.new_ask_price
             tmp_lot=min(49,POSITION_LIMIT+self.position)
             if tmp_lot!=0:
+                self.ask_id = next(self.order_ids)
+                self.statusaskflag=False
                 if self.position <40:
+                    self.logger.info("send sell order with id %d, price %d,lot %d", self.ask_id, self.new_ask_price,tmp_lot)
                     self.send_insert_order(self.ask_id, Side.SELL, self.new_ask_price, tmp_lot, Lifespan.GOOD_FOR_DAY)
                 else:
-                    self.send_insert_order(self.ask_id, Side.SELL, self.new_ask_price-200, tmp_lot, Lifespan.GOOD_FOR_DAY)
-            self.asks.add(self.ask_id)
-        self.GiveOrderSingleton=False
+                    self.logger.info("send sell order with id %d, price %d,lot %d", self.ask_id, self.new_ask_price-100,tmp_lot)
+                    self.send_insert_order(self.ask_id, Side.SELL, self.new_ask_price-100, tmp_lot, Lifespan.GOOD_FOR_DAY)
+                self.asks.add(self.ask_id)
 
     def on_order_book_update_message(self, instrument: int, sequence_number: int, ask_prices: List[int],
                                      ask_volumes: List[int], bid_prices: List[int], bid_volumes: List[int]) -> None:
@@ -129,8 +146,10 @@ class AutoTrader(BaseAutoTrader):
         """
 
         #PRICETHRESHODE=0.3
+        self.logger.info("Order Book start!")
         self.TICK+=1
-        self.statusflag=True
+        self.statusbidflag=True
+        self.statusaskflag=True
         if self.tick_id==0:
             return
         PRICESTEP=int(0.2*TICK_SIZE_IN_CENTS)
@@ -144,8 +163,8 @@ class AutoTrader(BaseAutoTrader):
         self.bid_prices[instrument]=bid_prices
         self.bid_volumes[instrument]=bid_volumes
 
-        self.new_bid_price = self.bid_prices[0][0] -200  if self.bid_prices[0][0] != 0 else 0
-        self.new_ask_price = self.ask_prices[0][0] +200  if self.ask_prices[0][0] != 0 else 0
+        self.new_bid_price = self.bid_prices[0][0] -100  if self.bid_prices[0][0] != 0 else 0
+        self.new_ask_price = self.ask_prices[0][0] +100  if self.ask_prices[0][0] != 0 else 0
 
 
         if self.tick_id==-1 and (ask_prices[0]!=0 or bid_prices[0]!=0):
@@ -158,10 +177,8 @@ class AutoTrader(BaseAutoTrader):
             self.tick_id = -1
         if self.bid_id != 0 and self.new_bid_price not in (self.bid_price, 0):
             self.send_cancel_order(self.bid_id)
-            self.bid_id = 0
         if self.ask_id != 0 and self.new_ask_price not in (self.ask_price, 0):
             self.send_cancel_order(self.ask_id)
-            self.ask_id = 0
         
 
         """if instrument == Instrument.ETF:
@@ -203,8 +220,6 @@ class AutoTrader(BaseAutoTrader):
         """
         """self.logger.info("received order filled for order %d with price %d and volume %d", client_order_id,
                          price, volume)"""
-        if self.tick_id==0:
-            return
         self.logger.info("OrderFill START!!!!! Position:%d", self.position)
         if client_order_id in self.bids:
             self.position += volume
@@ -216,6 +231,7 @@ class AutoTrader(BaseAutoTrader):
             tmpid=next(self.order_ids)
             self.send_hedge_order(tmpid, Side.BID, MAX_ASK_NEAREST_TICK, volume)
             self.logger.info("id %d , BID FUTURE",tmpid)
+        self.logger.info("OrderFill END!!!!! Position:%d", self.position)
 
 
     def on_order_status_message(self, client_order_id: int, fill_volume: int, remaining_volume: int,
@@ -244,9 +260,15 @@ class AutoTrader(BaseAutoTrader):
             # It could be either a bid or an ask
             self.bids.discard(client_order_id)
             self.asks.discard(client_order_id)
-        if self.statusflag:
-            self.giveOrder()
-            self.statusflag=False
+        if self.statusbidflag:
+            self.logger.info("Before giveBuyOrder, self.position:%d", self.position)
+            self.giveBuyOrder()
+            self.logger.info("After giveBuyOrder, self.position:%d", self.position)
+        if self.statusaskflag:
+            self.logger.info("Before giveAskOrder, self.position:%d", self.position)
+            self.giveAskOrder()
+            self.logger.info("After giveAskOrder, self.position:%d", self.position)
+            
 
     def on_trade_ticks_message(self, instrument: int, sequence_number: int, ask_prices: List[int],
                                ask_volumes: List[int], bid_prices: List[int], bid_volumes: List[int]) -> None:
