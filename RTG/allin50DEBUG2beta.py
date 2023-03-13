@@ -79,8 +79,8 @@ class AutoTrader(BaseAutoTrader):
         which may be better than the order's limit price. The volume is
         the number of lots filled at that price.
         """
-        """self.logger.info("received hedge filled for order %d with average price %d and volume %d", client_order_id,
-                         price, volume)"""
+        self.logger.info("received hedge filled for order %d with average price %d and volume %d", client_order_id,
+                         price, volume)
 
     def giveBuyOrder(self):
 

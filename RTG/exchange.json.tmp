@@ -71,6 +71,7 @@
     "allin50liq50": "secret",
     "allin50orderfillLiqA": "secret",
     "allin50DEBUG": "secret",
-    "allin50DEBUG2": "secret"
+    "allin50DEBUG2": "secret",
+    "autoBeta": "secret"
   }
 }
