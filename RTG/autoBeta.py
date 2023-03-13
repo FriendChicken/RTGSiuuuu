@@ -91,13 +91,13 @@ class AutoTrader(BaseAutoTrader):
                 self.send_cancel_order(self.ask_id)
                 self.ask_id = 0
 
-            if self.bid_id == 0 and new_bid_price != 0 and self.position <= 80:
+            if self.bid_id == 0 and new_bid_price != 0 and self.position <= 60:
                 self.bid_id = next(self.order_ids)
                 self.bid_price = new_bid_price
                 self.send_insert_order(self.bid_id, Side.BUY, new_bid_price, 20, Lifespan.GOOD_FOR_DAY)
                 self.bids.add(self.bid_id)
 
-            if self.ask_id == 0 and new_ask_price != 0 and self.position >= -80:
+            if self.ask_id == 0 and new_ask_price != 0 and self.position >= -60:
                 self.ask_id = next(self.order_ids)
                 self.ask_price = new_ask_price
                 self.send_insert_order(self.ask_id, Side.SELL, new_ask_price, 20, Lifespan.GOOD_FOR_DAY)
