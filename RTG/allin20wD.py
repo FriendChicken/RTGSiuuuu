@@ -99,7 +99,7 @@ class AutoTrader(BaseAutoTrader):
             tmp_lot=min(49,POSITION_LIMIT-self.position)
             if tmp_lot!=0:
                 self.statusbidflag=False
-                if self.position >-30:
+                if self.position >-60:
                     if self.position <30:
                         self.bid_id = next(self.order_ids)
                         self.logger.info("send buy order with id %d, price %d,lot %d", self.bid_id, self.new_bid_price,tmp_lot)
@@ -123,7 +123,7 @@ class AutoTrader(BaseAutoTrader):
                             self.bid_ids[0]= self.bid_id
                             self.bid_id = next(self.order_ids)
                             self.logger.info("send buy order with id %d, price %d,lot %d", self.bid_id, self.new_bid_price,tmp_lot)
-                            self.send_insert_order(self.bid_id, Side.BUY, self.new_bid_price-100, tmp_lot//2 , Lifespan.GOOD_FOR_DAY)
+                            self.send_insert_order(self.bid_id, Side.BUY, self.new_bid_price, tmp_lot//2 , Lifespan.GOOD_FOR_DAY)
                             self.bid_price = self.new_bid_price
                             self.bids.add(self.bid_id)
                             self.bid_ids[1]= self.bid_id
@@ -141,10 +141,10 @@ class AutoTrader(BaseAutoTrader):
                             self.bids.add(self.bid_id)
                             self.bid_ids[1]= self.bid_id
                 else:
-                    if self.position >-75:
+                    if self.position >-85:
                         self.bid_id = next(self.order_ids)
                         self.logger.info("send buy order with id %d, price %d,lot %d", self.bid_id, self.new_bid_price+100,tmp_lot)
-                        self.send_insert_order(self.bid_id, Side.BUY, self.new_bid_price+100, tmp_lot//2, Lifespan.GOOD_FOR_DAY)
+                        self.send_insert_order(self.bid_id, Side.BUY, self.new_bid_price+200, tmp_lot//2, Lifespan.GOOD_FOR_DAY)
                         self.bid_price = self.new_bid_price
                         self.bids.add(self.bid_id)
                         self.bid_ids[0]= self.bid_id
@@ -157,7 +157,7 @@ class AutoTrader(BaseAutoTrader):
                     else:
                         self.bid_id = next(self.order_ids)
                         self.logger.info("send buy order with id %d, price %d,lot %d", self.bid_id, self.new_bid_price+100,tmp_lot)
-                        self.send_insert_order(self.bid_id, Side.BUY, self.new_bid_price+200, tmp_lot//2, Lifespan.GOOD_FOR_DAY)
+                        self.send_insert_order(self.bid_id, Side.BUY, self.new_bid_price+300, tmp_lot//2, Lifespan.GOOD_FOR_DAY)
                         self.bid_price = self.new_bid_price
                         self.bids.add(self.bid_id)
                         self.bid_ids[0]= self.bid_id
@@ -183,11 +183,11 @@ class AutoTrader(BaseAutoTrader):
             tmp_lot=min(49,POSITION_LIMIT+self.position)
             if tmp_lot!=0:
                 self.statusaskflag=False
-                if self.position <30:
+                if self.position <60:
                     if self.position >-30:
                         self.ask_id = next(self.order_ids)
                         self.logger.info("send sell order with id %d, price %d,lot %d", self.ask_id, self.new_ask_price,tmp_lot)
-                        self.send_insert_order(self.ask_id, Side.SELL, self.new_ask_price, tmp_lot//2-1, Lifespan.GOOD_FOR_DAY)
+                        self.send_insert_order(self.ask_id, Side.SELL, self.new_ask_price, tmp_lot//2, Lifespan.GOOD_FOR_DAY)
                         self.ask_price = self.new_ask_price
                         self.asks.add(self.ask_id)
                         self.ask_ids[0] = self.ask_id 
@@ -207,25 +207,25 @@ class AutoTrader(BaseAutoTrader):
                             self.ask_ids[0] = self.ask_id 
                             self.ask_id = next(self.order_ids)
                             self.logger.info("send sell order with id %d, price %d,lot %d", self.ask_id, self.new_ask_price,tmp_lot)
-                            self.send_insert_order(self.ask_id, Side.SELL, self.new_ask_price+100, tmp_lot//2, Lifespan.GOOD_FOR_DAY)
+                            self.send_insert_order(self.ask_id, Side.SELL, self.new_ask_price, tmp_lot//2, Lifespan.GOOD_FOR_DAY)
                             self.ask_price = self.new_ask_price
                             self.asks.add(self.ask_id)
                             self.ask_ids[1] = self.ask_id 
                         else:
                             self.ask_id = next(self.order_ids)
                             self.logger.info("send sell order with id %d, price %d,lot %d", self.ask_id, self.new_ask_price,tmp_lot)
-                            self.send_insert_order(self.ask_id, Side.SELL, self.new_ask_price, tmp_lot//2, Lifespan.GOOD_FOR_DAY)
+                            self.send_insert_order(self.ask_id, Side.SELL, self.new_ask_price+100, tmp_lot//2, Lifespan.GOOD_FOR_DAY)
                             self.ask_price = self.new_ask_price
                             self.asks.add(self.ask_id)
                             self.ask_ids[0] = self.ask_id 
                             self.ask_id = next(self.order_ids)
                             self.logger.info("send sell order with id %d, price %d,lot %d", self.ask_id, self.new_ask_price,tmp_lot)
-                            self.send_insert_order(self.ask_id, Side.SELL, self.new_ask_price+100, tmp_lot//2, Lifespan.GOOD_FOR_DAY)
+                            self.send_insert_order(self.ask_id, Side.SELL, self.new_ask_price+200, tmp_lot//2, Lifespan.GOOD_FOR_DAY)
                             self.ask_price = self.new_ask_price
                             self.asks.add(self.ask_id)
                             self.ask_ids[1] = self.ask_id 
                 else:
-                    if self.position < 75:
+                    if self.position < 85:
                         self.ask_id = next(self.order_ids)
                         self.logger.info("send sell order with id %d, price %d,lot %d", self.ask_id, self.new_ask_price-100,tmp_lot)
                         self.send_insert_order(self.ask_id, Side.SELL, self.new_ask_price-100, tmp_lot//2, Lifespan.GOOD_FOR_DAY)
@@ -241,7 +241,7 @@ class AutoTrader(BaseAutoTrader):
                     else:
                         self.ask_id = next(self.order_ids)
                         self.logger.info("send sell order with id %d, price %d,lot %d", self.ask_id, self.new_ask_price-100,tmp_lot)
-                        self.send_insert_order(self.ask_id, Side.SELL, self.new_ask_price-200, tmp_lot//2, Lifespan.GOOD_FOR_DAY)
+                        self.send_insert_order(self.ask_id, Side.SELL, self.new_ask_price-300, tmp_lot//2, Lifespan.GOOD_FOR_DAY)
                         self.ask_price = self.new_ask_price
                         self.asks.add(self.ask_id)
                         self.ask_ids[0] = self.ask_id 
@@ -283,7 +283,7 @@ class AutoTrader(BaseAutoTrader):
             self.new_bid_price = bid_prices[0] -200  if bid_prices[0] != 0 else 0
             self.new_ask_price = ask_prices[0] +200  if ask_prices[0] != 0 else 0
 
-            if self.bid_id == 0 and self.ask_id == 0:
+            if self.bid_ids[0] == 0 and self.ask_ids[0] == 0:
                 if self.tick_id==-1 and (ask_prices[0]!=0 or bid_prices[0]!=0):
                     tmp_id=next(self.order_ids)
                     self.send_insert_order(tmp_id, Side.SELL, 100*1000000, 1, Lifespan.GOOD_FOR_DAY)

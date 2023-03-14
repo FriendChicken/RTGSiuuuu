@@ -1,6 +1,6 @@
 {
   "Engine": {
-    "MarketDataFile": "data/market_data3.csv",
+    "MarketDataFile": "data/market_data2.csv",
     "MarketEventInterval": 0.05,
     "MarketOpenDelay": 5.0,
     "MatchEventsFile": "Matches/Match1/match_events.csv",
@@ -74,6 +74,9 @@
     "allin50DEBUG2": "secret",
     "autoBeta": "secret",
     "autoBetaadd1": "secret",
-    "allin20wD": "secret"
+    "allin20wD": "secret",
+    "allin20w": "secret",
+    "allinhalfLiq2": "secret",
+    "allinhalfLiq26": "secret"
   }
 }
