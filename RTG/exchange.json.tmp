@@ -72,6 +72,11 @@
     "allin50orderfillLiqA": "secret",
     "allin50DEBUG": "secret",
     "allin50DEBUG2": "secret",
-    "autoBeta": "secret"
+    "autoBeta": "secret",
+    "autoBetaadd1": "secret",
+    "allin20wD": "secret",
+    "allin20w": "secret",
+    "allinhalfLiq2": "secret",
+    "allinhalfLiq26": "secret"
   }
 }
