@@ -16658,3 +16658,79 @@ ConnectionAbortedError: [WinError 10053] An established connection was aborted b
 2023-03-13 06:57:59,867 [INFO   ] [TRADER] received order status for order 438 with fill volume 0 remaining 20 and fees 0
 2023-03-13 06:58:00,056 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 305
 2023-03-13 06:58:00,056 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 305
+2023-03-13 07:10:45,609 [INFO   ] [APP] autoBeta started with arguments={rtg.py, run, autoBeta.py, allin50DEBUG2.py, FastM2.py, WLiq.py, WLowBuy.py, WLowBuy2.py, allin50orderfillLiq2.py}
+2023-03-13 07:10:45,609 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"Type":"mmap","Name":"info.dat"},"TeamName":"autoBeta","Secret":"secret"}
+2023-03-13 07:10:45,609 [INFO   ] [CONNECTION] fd=824 connection established: peer=127.0.0.1:12345
+2023-03-13 07:10:45,609 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 290
+2023-03-13 07:10:45,609 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 291
+2023-03-13 07:10:45,609 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 291
+2023-03-13 07:10:45,609 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 292
+2023-03-13 07:10:45,609 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 292
+2023-03-13 07:10:45,609 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 293
+2023-03-13 07:10:45,609 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 293
+2023-03-13 07:10:45,609 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 294
+2023-03-13 07:10:45,609 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 294
+2023-03-13 07:10:45,609 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 138
+2023-03-13 07:10:45,609 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 295
+2023-03-13 07:10:45,609 [WARNING] [asyncio] socket.send() raised exception.
+2023-03-13 07:10:45,609 [WARNING] [asyncio] socket.send() raised exception.
+2023-03-13 07:10:45,609 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 295
+2023-03-13 07:10:45,609 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 296
+2023-03-13 07:10:45,609 [WARNING] [asyncio] socket.send() raised exception.
+2023-03-13 07:10:45,609 [WARNING] [asyncio] socket.send() raised exception.
+2023-03-13 07:10:45,609 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 296
+2023-03-13 07:10:45,609 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 119
+2023-03-13 07:10:45,609 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 297
+2023-03-13 07:10:45,609 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 297
+2023-03-13 07:10:45,609 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 298
+2023-03-13 07:10:45,609 [WARNING] [asyncio] socket.send() raised exception.
+2023-03-13 07:10:45,609 [WARNING] [asyncio] socket.send() raised exception.
+2023-03-13 07:10:45,609 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 298
+2023-03-13 07:10:45,609 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 299
+2023-03-13 07:10:45,609 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 299
+2023-03-13 07:10:45,609 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 139
+2023-03-13 07:10:45,609 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 300
+2023-03-13 07:10:45,609 [WARNING] [asyncio] socket.send() raised exception.
+2023-03-13 07:10:45,609 [WARNING] [asyncio] socket.send() raised exception.
+2023-03-13 07:10:45,609 [WARNING] [asyncio] socket.send() raised exception.
+2023-03-13 07:10:45,609 [WARNING] [asyncio] socket.send() raised exception.
+2023-03-13 07:10:45,609 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 300
+2023-03-13 07:10:45,609 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 120
+2023-03-13 07:10:45,609 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 301
+2023-03-13 07:10:45,609 [WARNING] [asyncio] socket.send() raised exception.
+2023-03-13 07:10:45,609 [WARNING] [asyncio] socket.send() raised exception.
+2023-03-13 07:10:45,609 [WARNING] [asyncio] socket.send() raised exception.
+2023-03-13 07:10:45,609 [WARNING] [asyncio] socket.send() raised exception.
+2023-03-13 07:10:45,609 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 301
+2023-03-13 07:10:45,609 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 121
+2023-03-13 07:10:45,609 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 122
+2023-03-13 07:10:45,609 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 302
+2023-03-13 07:10:45,609 [WARNING] [asyncio] socket.send() raised exception.
+2023-03-13 07:10:45,609 [WARNING] [asyncio] socket.send() raised exception.
+2023-03-13 07:10:45,609 [WARNING] [asyncio] socket.send() raised exception.
+2023-03-13 07:10:45,609 [WARNING] [asyncio] socket.send() raised exception.
+2023-03-13 07:10:45,609 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 302
+2023-03-13 07:10:45,609 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 303
+2023-03-13 07:10:45,609 [WARNING] [asyncio] socket.send() raised exception.
+2023-03-13 07:10:45,609 [WARNING] [asyncio] socket.send() raised exception.
+2023-03-13 07:10:45,609 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 303
+2023-03-13 07:10:45,609 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 123
+2023-03-13 07:10:45,609 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 304
+2023-03-13 07:10:45,609 [WARNING] [asyncio] socket.send() raised exception.
+2023-03-13 07:10:45,609 [WARNING] [asyncio] socket.send() raised exception.
+2023-03-13 07:10:45,609 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 304
+2023-03-13 07:10:45,609 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 305
+2023-03-13 07:10:45,609 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 305
+2023-03-13 07:10:45,609 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 306
+2023-03-13 07:10:45,609 [WARNING] [asyncio] socket.send() raised exception.
+2023-03-13 07:10:45,609 [WARNING] [asyncio] socket.send() raised exception.
+2023-03-13 07:10:45,609 [WARNING] [asyncio] socket.send() raised exception.
+2023-03-13 07:10:45,609 [WARNING] [asyncio] socket.send() raised exception.
+2023-03-13 07:10:45,609 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 306
+2023-03-13 07:10:45,609 [ERROR  ] [CONNECTION] fd=824 connection lost:
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 924, in write
+    n = self._sock.send(data)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+2023-03-13 07:10:45,609 [INFO   ] [RECEIVER] connection lost
+2023-03-13 07:10:45,609 [INFO   ] [APP] closing event loop

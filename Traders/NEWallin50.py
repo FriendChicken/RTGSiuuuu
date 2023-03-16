@@ -17,6 +17,7 @@
 #     <https://www.gnu.org/licenses/>.
 import asyncio
 import itertools
+from pickle import TRUE
 
 from typing import List
 
@@ -47,6 +48,8 @@ class AutoTrader(BaseAutoTrader):
         self.bids = set()
         self.asks = set()
         self.ask_id = self.ask_price = self.bid_id = self.bid_price = self.position = 0
+        self.ask_filled_volume=0
+        self.bid_filled_volume=0
         #####
         #####
         self.ask_prices=[[None]*5]*2
@@ -54,6 +57,7 @@ class AutoTrader(BaseAutoTrader):
         self.bid_prices=[[None]*5]*2
         self.bid_volumes=[[None]*5]*2
 
+        self.kickstart=False
         self.bid_Safe=True
         self.bid_Safe_Price=0
         self.ask_Safe=True
@@ -88,9 +92,14 @@ class AutoTrader(BaseAutoTrader):
         prices are reported along with the volume available at each of those
         price levels.
         """
-
         #PRICETHRESHODE=0.3
-        
+        if not self.kickstart and (bid_prices[0] != 0 or ask_prices[0] != 0):
+            self.logger.warning("activate")
+            self.kickstart=True
+            tmpid = next(self.order_ids)
+            self.send_insert_order(tmpid, Side.SELL, 100*100000, 1, Lifespan.GOOD_FOR_DAY)
+            self.send_cancel_order(tmpid)
+
 
         PRICESTEP=int(0.2*TICK_SIZE_IN_CENTS)
         PRICETHRESHODE=int(0.2*TICK_SIZE_IN_CENTS)
@@ -169,17 +178,22 @@ class AutoTrader(BaseAutoTrader):
         """
         self.logger.info("received order status for order %d with fill volume %d remaining %d and fees %d",
                          client_order_id, fill_volume, remaining_volume, fees)
+        if client_order_id in self.bids:
+            self.position += (fill_volume-self.bid_filled_volume)
+            self.bid_filled_volume=fill_volume
+        if client_order_id in self.asks:
+            self.position -= (fill_volume-self.ask_filled_volume)
+            self.ask_filled_volume=fill_volume
         if remaining_volume == 0:
             if client_order_id == self.bid_id:
                 self.bid_id = 0
+                self.bid_filled_volume=0
                 self.bids.discard(client_order_id)
             elif client_order_id == self.ask_id:
                 self.ask_id = 0
+                self.ask_filled_volume=0
                 self.asks.discard(client_order_id)
-        if client_order_id in self.bids:
-            self.position += fill_volume
-        if client_order_id in self.asks:
-            self.position -= fill_volume
+
         new_bid_price = self.bid_prices[0][0] -100  if self.bid_prices[0][0] != 0 else 0
         new_ask_price = self.ask_prices[0][0] +100  if self.ask_prices[0][0] != 0 else 0
 
@@ -195,8 +209,6 @@ class AutoTrader(BaseAutoTrader):
             self.bid_price = new_bid_price
             if self.bid_Safe:
                 self.send_insert_order(self.bid_id, Side.BUY, new_bid_price, min(50,POSITION_LIMIT-self.position), Lifespan.GOOD_FOR_DAY)
-            else:
-                self.send_insert_order(self.bid_id, Side.BUY, new_bid_price, POSITION_LIMIT-self.position, Lifespan.GOOD_FOR_DAY)
                 self.bid_Safe=True
             self.bids.add(self.bid_id)
 
@@ -205,8 +217,6 @@ class AutoTrader(BaseAutoTrader):
             self.ask_price = new_ask_price
             if self.ask_Safe:
                 self.send_insert_order(self.ask_id, Side.SELL, new_ask_price, min(50,POSITION_LIMIT+self.position), Lifespan.GOOD_FOR_DAY)
-            else:
-                self.send_insert_order(self.ask_id, Side.SELL, new_ask_price, POSITION_LIMIT+self.position, Lifespan.GOOD_FOR_DAY)
                 self.ask_Safe=True
             self.asks.add(self.ask_id)
             # It could be either a bid or an ask

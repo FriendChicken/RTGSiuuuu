@@ -32784,3 +32784,56 @@ ConnectionResetError: [WinError 10054] An existing connection was forcibly close
 2023-03-13 06:58:00,056 [INFO   ] [TRADER] received order status for order 692 with fill volume 0 remaining 0 and fees 0
 2023-03-13 06:58:00,056 [INFO   ] [TRADER] send sell order with id 694, price 151200,lot 49
 2023-03-13 06:58:00,056 [INFO   ] [TRADER] received order status for order 694 with fill volume 0 remaining 49 and fees 0
+2023-03-13 07:10:45,716 [INFO   ] [APP] allin50DEBUG2 started with arguments={rtg.py, run, autoBeta.py, allin50DEBUG2.py, FastM2.py, WLiq.py, WLowBuy.py, WLowBuy2.py, allin50orderfillLiq2.py}
+2023-03-13 07:10:45,717 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"Type":"mmap","Name":"info.dat"},"TeamName":"allin50DEBUG2","Secret":"secret"}
+2023-03-13 07:10:45,719 [INFO   ] [CONNECTION] fd=788 connection established: peer=127.0.0.1:12345
+2023-03-13 07:10:45,720 [INFO   ] [TRADER] Order Book start!
+2023-03-13 07:10:45,720 [INFO   ] [TRADER] Order Book start!
+2023-03-13 07:10:45,720 [INFO   ] [TRADER] Order Book start!
+2023-03-13 07:10:45,721 [INFO   ] [TRADER] Order Book start!
+2023-03-13 07:10:45,721 [INFO   ] [TRADER] Order Book start!
+2023-03-13 07:10:45,721 [INFO   ] [TRADER] Order Book start!
+2023-03-13 07:10:45,721 [INFO   ] [TRADER] Order Book start!
+2023-03-13 07:10:45,721 [INFO   ] [TRADER] Order Book start!
+2023-03-13 07:10:45,721 [INFO   ] [TRADER] Order Book start!
+2023-03-13 07:10:45,721 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 138
+2023-03-13 07:10:45,721 [INFO   ] [TRADER] Order Book start!
+2023-03-13 07:10:45,721 [INFO   ] [TRADER] Order Book start!
+2023-03-13 07:10:45,721 [INFO   ] [TRADER] Order Book start!
+2023-03-13 07:10:45,721 [INFO   ] [TRADER] Order Book start!
+2023-03-13 07:10:45,721 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 119
+2023-03-13 07:10:45,721 [INFO   ] [TRADER] Order Book start!
+2023-03-13 07:10:45,721 [INFO   ] [TRADER] Order Book start!
+2023-03-13 07:10:45,721 [INFO   ] [TRADER] Order Book start!
+2023-03-13 07:10:45,722 [INFO   ] [TRADER] Order Book start!
+2023-03-13 07:10:45,722 [INFO   ] [TRADER] Order Book start!
+2023-03-13 07:10:45,722 [INFO   ] [TRADER] Order Book start!
+2023-03-13 07:10:45,722 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 139
+2023-03-13 07:10:45,722 [INFO   ] [TRADER] Order Book start!
+2023-03-13 07:10:45,722 [INFO   ] [TRADER] Order Book start!
+2023-03-13 07:10:45,722 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 120
+2023-03-13 07:10:45,722 [INFO   ] [TRADER] Order Book start!
+2023-03-13 07:10:45,722 [INFO   ] [TRADER] Order Book start!
+2023-03-13 07:10:45,722 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 121
+2023-03-13 07:10:45,722 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 122
+2023-03-13 07:10:45,722 [INFO   ] [TRADER] Order Book start!
+2023-03-13 07:10:45,722 [INFO   ] [TRADER] Order Book start!
+2023-03-13 07:10:45,722 [INFO   ] [TRADER] Order Book start!
+2023-03-13 07:10:45,722 [INFO   ] [TRADER] Order Book start!
+2023-03-13 07:10:45,722 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 123
+2023-03-13 07:10:45,723 [INFO   ] [TRADER] Order Book start!
+2023-03-13 07:10:45,723 [INFO   ] [TRADER] Order Book start!
+2023-03-13 07:10:45,723 [INFO   ] [TRADER] Order Book start!
+2023-03-13 07:10:45,723 [WARNING] [asyncio] socket.send() raised exception.
+2023-03-13 07:10:45,723 [INFO   ] [TRADER] Order Book start!
+2023-03-13 07:10:45,723 [INFO   ] [TRADER] Order Book start!
+2023-03-13 07:10:45,723 [WARNING] [asyncio] socket.send() raised exception.
+2023-03-13 07:10:45,723 [WARNING] [asyncio] socket.send() raised exception.
+2023-03-13 07:10:45,723 [INFO   ] [TRADER] Order Book start!
+2023-03-13 07:10:45,723 [ERROR  ] [CONNECTION] fd=788 connection lost:
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.2800.0_x64__qbz5n2kfra8p0\lib\asyncio\selector_events.py", line 924, in write
+    n = self._sock.send(data)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2023-03-13 07:10:45,724 [INFO   ] [RECEIVER] connection lost
+2023-03-13 07:10:45,724 [INFO   ] [APP] closing event loop
